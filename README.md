@@ -90,15 +90,9 @@ Visit: `https://github.com/YourOrg/designer-portfolios`
 [Your contact for collaboration opportunities]
 ```
 
-### 2. Web Application Access
+### 2. Browse Portfolios
 
-Visit: `https://your-designer-portfolios.vercel.app`
-
-#### How to Use
-- **Browse Portfolios:** Use A-Z navigation to explore designer portfolios
-- **Search Designers:** Filter by discipline and expertise
-- **Connect with Designers:** Follow and connect with other designers
-- **Share Your Work:** Submit your portfolio for inclusion
+After your portfolio is approved, it will appear in the repository's portfolio listing. You can browse all portfolios in the `data/portfolios/` directory organized alphabetically.
 
 ## Contribution Process
 
@@ -230,15 +224,12 @@ designer-portfolios/
 ## Contact & Social
 
 ### Official Channels
-- **GitHub Repository:** https://github.com/YourOrg/designer-portfolios
-- **Website:** https://your-designer-portfolios.vercel.app
-- **Email:** contact@designer-portfolios.com
+- **GitHub Repository:** https://github.com/Jorgut/designer-portfolios
+- **Contribute:** See [CONTRIBUTING.md](./CONTRIBUTING.md) for portfolio submission guidelines
 
-### Social Media
-- **Twitter/X:** @DesignerPortfolios
-- **LinkedIn:** Designer Portfolios Community
-- **Instagram:** @designer.portfolios
-- **Dev.to:** designer-portfolios
+### Get Help
+- **GitHub Issues:** Report bugs, request features, or ask questions
+- **Pull Requests:** Submit your portfolio for review
 
 ## License
 
@@ -248,22 +239,16 @@ This project is open source under the MIT License. See `LICENSE.md` for details.
 
 This project was inspired by:
 - [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) - Developer portfolio community
-- [Design Portfolio Resources](https://www.designportfolio.org) - Design portfolio inspiration
-- [Design Communities](https://www.designcommunity.com) - Design professional networking
-
-## Cookie Policy
-
-This project uses cookies to enhance user experience and provide personalized content. See `COOKIE_POLICY.md` for details.
 
 ---
 
 **Ready to Join the Designer Community?**
 
-If you are a designer looking to showcase your work or connect with other designers, welcome to the Designer Portfolio Platform! We invite you to:
+If you are a designer looking to showcase your work, welcome to the Designer Portfolio Platform! We invite you to:
 
-1. **Register** on our website
-2. **Submit your portfolio** via GitHub contributions
-3. **Connect with other designers**
-4. **Share your design journey**
+1. **Fork** this repository
+2. **Submit your portfolio** via Pull Request
+3. **Wait for review** from maintainers
+4. **Get featured** in the community
 
 Together, we can build the ultimate design portfolio resource for designers worldwide!
