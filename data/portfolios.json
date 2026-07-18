@@ -154,5 +154,438 @@
       "linkedin": null,
       "github": "https://github.com/akwastaken"
     }
+  },
+  {
+    "id": "simon-pan",
+    "name": "Simon Pan",
+    "slug": "simon-pan",
+    "discipline": "UX-UI",
+    "location": "San Francisco, USA",
+    "website": "https://simonpan.com",
+    "email": null,
+    "bio": "UX Designer at Google. Previously designed Uber Magic 2.0 and Amazon Prime Music. Known for case studies that are the gold standard for hiring managers.",
+    "avatar": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "featured": true,
+    "tags": ["ux-design", "case-studies", "google", "uber"],
+    "projects": [
+      {
+        "title": "Uber Magic 2.0",
+        "description": "Redesigned the Uber experience with focus on delight and seamlessness in ride-hailing.",
+        "tools": ["Figma", "Prototyping"],
+        "year": 2023,
+        "gradient": "linear-gradient(135deg, #000000 0%, #434343 100%)"
+      },
+      {
+        "title": "Amazon Prime Music",
+        "description": "UX design for music streaming experience at Amazon.",
+        "tools": ["Sketch", "Principle"],
+        "year": 2022,
+        "gradient": "linear-gradient(135deg, #00a8ff 0%, #0061ff 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/simonpan",
+      "github": null
+    }
+  },
+  {
+    "id": "robin-nogiuer",
+    "name": "Robin Nogiuer",
+    "slug": "robin-nogiuer",
+    "discipline": "UX-UI",
+    "location": "France",
+    "website": "https://robin-noguier.com",
+    "email": null,
+    "bio": "Freelance interaction designer from France. One of the best portfolios we have seen — incredibly engaging and polished.",
+    "avatar": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+    "featured": true,
+    "tags": ["interaction-design", "freelance", "polished"],
+    "projects": [
+      {
+        "title": "Selected Works",
+        "description": "Collection of freelance interaction design projects showcasing engaging and polished interfaces.",
+        "tools": ["Figma", "After Effects"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/robin_noguier",
+      "linkedin": null,
+      "github": null
+    }
+  },
+  {
+    "id": "austin-knight",
+    "name": "Austin Knight",
+    "slug": "austin-knight",
+    "discipline": "UX-UI",
+    "location": "USA",
+    "website": "https://austinknight.com",
+    "email": null,
+    "bio": "Product designer at Google. Openly shares projects, thoughts and ideas with a very interesting process description.",
+    "avatar": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+    "featured": true,
+    "tags": ["product-design", "google", "process"],
+    "projects": [
+      {
+        "title": "Design Process Documentation",
+        "description": "Detailed walkthrough of design thinking and approach for various Google projects.",
+        "tools": ["Figma", "Miro"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/austinknight",
+      "linkedin": "https://linkedin.com/in/austinknight",
+      "github": null
+    }
+  },
+  {
+    "id": "buzz-usborne",
+    "name": "Buzz Usborne",
+    "slug": "buzz-usborne",
+    "discipline": "UX-UI",
+    "location": "USA",
+    "website": "https://buzzusborne.com",
+    "email": null,
+    "bio": "Principal Designer at Help Scout. Previously led design at Atlassian, Skype and Campaign Monitor. Specializes in remote collaboration and design leadership.",
+    "avatar": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+    "featured": false,
+    "tags": ["design-leadership", "help-scout", "atlassian"],
+    "projects": [
+      {
+        "title": "Design Leadership Portfolio",
+        "description": "Case studies from leading design teams at Help Scout, Atlassian, and Skype.",
+        "tools": ["Various"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/buzzusborne",
+      "github": null
+    }
+  },
+  {
+    "id": "board-vellum",
+    "name": "Board & Vellum",
+    "slug": "board-vellum",
+    "discipline": "Architecture",
+    "location": "Seattle, USA",
+    "website": "https://www.boardandvellum.com",
+    "email": null,
+    "bio": "Architecture, interior design, and landscape architecture firm. Specializing in private residences, multifamily buildings, commercial environments, and civic spaces.",
+    "avatar": "linear-gradient(135deg, #2d3436 0%, #636e72 100%)",
+    "featured": true,
+    "tags": ["architecture", "interior-design", "landscape", "residential"],
+    "projects": [
+      {
+        "title": "Lucille on Roosevelt Rooftop Garden",
+        "description": "Gray Awards Finalist for landscape design featuring innovative rooftop garden.",
+        "tools": ["AutoCAD", "Revit", "SketchUp"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #55a630 0%, #80b918 100%)"
+      },
+      {
+        "title": "Mixed-Use Development",
+        "description": "Multifamily and mixed-use building design combining residential and commercial spaces.",
+        "tools": ["Revit", "Lumion"],
+        "year": 2023,
+        "gradient": "linear-gradient(135deg, #606c38 0%, #283618 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/company/board-and-vellum",
+      "github": null
+    }
+  },
+  {
+    "id": "douglas-cardinal",
+    "name": "Douglas Cardinal",
+    "slug": "douglas-cardinal",
+    "discipline": "Architecture",
+    "location": "Canada",
+    "website": "http://www.djcarchitect.com",
+    "email": null,
+    "bio": "Architect known for organic, flowing designs inspired by nature. 'Without any preconceptions, I evolve a design from the inside out, open to all possibilities.'",
+    "avatar": "linear-gradient(135deg, #b721ff 0%, #21d4fd 100%)",
+    "featured": true,
+    "tags": ["architecture", "organic-design", "nature-inspired"],
+    "projects": [
+      {
+        "title": "Canadian Museum of History",
+        "description": "Iconic flowing architecture inspired by Canadian landscape and Indigenous culture.",
+        "tools": ["AutoCAD", "3D Modeling"],
+        "year": 2020,
+        "gradient": "linear-gradient(135deg, #b721ff 0%, #21d4fd 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null
+    }
+  },
+  {
+    "id": "helen-koss",
+    "name": "Helen Koss",
+    "slug": "helen-koss",
+    "discipline": "Interior",
+    "location": "Germany",
+    "website": "https://www.helenkoss.com",
+    "email": null,
+    "bio": "Interior designer with a modern, stylish approach. Portfolio features immersive background video and beautifully categorized project collections.",
+    "avatar": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+    "featured": true,
+    "tags": ["interior-design", "modern", "residential"],
+    "projects": [
+      {
+        "title": "Residential Projects",
+        "description": "Collection of modern interior design projects for luxury residences.",
+        "tools": ["3ds Max", "V-Ray"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null
+    }
+  },
+  {
+    "id": "selina-turfus",
+    "name": "Selina Turfus",
+    "slug": "selina-turfus",
+    "discipline": "Product",
+    "location": "United Kingdom",
+    "website": "https://www.selinaturfus.co.uk",
+    "email": null,
+    "bio": "Product designer showcasing shipped product work with end-to-end case studies demonstrating design impact.",
+    "avatar": "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)",
+    "featured": true,
+    "tags": ["product-design", "case-studies", "impact"],
+    "projects": [
+      {
+        "title": "Product Design Case Studies",
+        "description": "End-to-end product design projects showing research, iteration, and shipped results.",
+        "tools": ["Figma", "Maze"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/selinaturfus",
+      "github": null
+    }
+  },
+  {
+    "id": "jenny-du",
+    "name": "Jenny Du",
+    "slug": "jenny-du",
+    "discipline": "Product",
+    "location": "USA",
+    "website": "https://www.jenny-du.com",
+    "email": null,
+    "bio": "Product designer with a clean, minimal portfolio showcasing design thinking and user-centered solutions.",
+    "avatar": "linear-gradient(135deg, #d299c2 0%, #fef9d7 100%)",
+    "featured": false,
+    "tags": ["product-design", "minimal", "user-centered"],
+    "projects": [
+      {
+        "title": "Selected Product Work",
+        "description": "Curated collection of product design projects demonstrating user-centered approach.",
+        "tools": ["Figma", "Principle"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #d299c2 0%, #fef9d7 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/jennydu",
+      "github": null
+    }
+  },
+  {
+    "id": "elle-levine",
+    "name": "Elle Levine",
+    "slug": "elle-levine",
+    "discipline": "UX-UI",
+    "location": "San Francisco, USA",
+    "website": "https://www.ellelevine.com",
+    "email": null,
+    "bio": "Senior Product Designer crafting intuitive digital experiences. Portfolio showcases clean case studies with clear problem-solution narratives.",
+    "avatar": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "featured": true,
+    "tags": ["ux-design", "product-design", "case-studies"],
+    "projects": [
+      {
+        "title": "Digital Product Design",
+        "description": "Case studies from designing products at scale for major tech companies.",
+        "tools": ["Figma", "Sketch"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/ellelevine",
+      "github": null
+    }
+  },
+  {
+    "id": "zaha-hadid",
+    "name": "Zaha Hadid Architects",
+    "slug": "zaha-hadid",
+    "discipline": "Architecture",
+    "location": "London, UK",
+    "website": "https://www.zaha-hadid.com",
+    "email": null,
+    "bio": "Global architecture studio known for visionary, parametric designs. Pushing boundaries of what's possible in architecture and urban design.",
+    "avatar": "linear-gradient(135deg, #000000 0%, #434343 100%)",
+    "featured": true,
+    "tags": ["architecture", "parametric", "futuristic", "iconic"],
+    "projects": [
+      {
+        "title": "Beijing Daxing International Airport",
+        "description": "Starfish-shaped airport terminal showcasing parametric design at massive scale.",
+        "tools": ["Rhino", "Grasshopper", "Revit"],
+        "year": 2019,
+        "gradient": "linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%)"
+      },
+      {
+        "title": "Heydar Aliyev Center",
+        "description": "Cultural center in Baku with flowing, curved forms that avoid sharp angles.",
+        "tools": ["Rhino", "Maya"],
+        "year": 2012,
+        "gradient": "linear-gradient(135deg, #e0e0e0 0%, #ffffff 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/zaboratory",
+      "linkedin": "https://linkedin.com/company/zaha-hadid-architects",
+      "github": null
+    }
+  },
+  {
+    "id": "norm-foster",
+    "name": "Foster + Partners",
+    "slug": "foster-partners",
+    "discipline": "Architecture",
+    "location": "London, UK",
+    "website": "https://www.fosterandpartners.com",
+    "email": null,
+    "bio": "Global studio for architecture, design, engineering, and urban planning. Known for sustainable, high-tech design approach.",
+    "avatar": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+    "featured": true,
+    "tags": ["architecture", "sustainable", "high-tech", "urban-planning"],
+    "projects": [
+      {
+        "title": "Apple Park",
+        "description": "Apple's circular headquarters in Cupertino, combining technology with nature.",
+        "tools": ["Revit", "Rhino"],
+        "year": 2017,
+        "gradient": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)"
+      },
+      {
+        "title": "The Gherkin (30 St Mary Axe)",
+        "description": "Iconic London skyscraper with energy-efficient diagrid structure.",
+        "tools": ["AutoCAD", "3ds Max"],
+        "year": 2004,
+        "gradient": "linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/FosterPartners",
+      "linkedin": "https://linkedin.com/company/foster-+-partners",
+      "github": null
+    }
+  },
+  {
+    "id": "cameron-macneil",
+    "name": "Cameron MacNeil",
+    "slug": "cameron-macneil",
+    "discipline": "Interior",
+    "location": "New York, USA",
+    "website": "https://www.cameronmacneil.com",
+    "email": null,
+    "bio": "Interior designer known for sophisticated, layered spaces that blend contemporary and classic elements.",
+    "avatar": "linear-gradient(135deg, #c9d6ff 0%, #e2e2e2 100%)",
+    "featured": true,
+    "tags": ["interior-design", "sophisticated", "residential", "new-york"],
+    "projects": [
+      {
+        "title": "Manhattan Residence",
+        "description": "Luxurious yet livable Manhattan apartment with curated art collection.",
+        "tools": ["AutoCAD", "Photoshop"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #c9d6ff 0%, #e2e2e2 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null
+    }
+  },
+  {
+    "id": "patricia-urquiola",
+    "name": "Patricia Urquiola",
+    "slug": "patricia-urquiola",
+    "discipline": "Product",
+    "location": "Milan, Italy",
+    "website": "https://www.patriciaurquiola.com",
+    "email": null,
+    "bio": "Spanish architect and designer based in Milan. Known for furniture, product, and architectural design that blends craftsmanship with industrial processes.",
+    "avatar": "linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)",
+    "featured": true,
+    "tags": ["product-design", "furniture", "industrial-design", "milan"],
+    "projects": [
+      {
+        "title": "Furniture Collections",
+        "description": "Iconic furniture designs for brands like Moroso, Cassina, and BMW.",
+        "tools": ["Rhino", "KeyShot"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/patricia-urquiola",
+      "github": null
+    }
+  },
+  {
+    "id": "karim-rashid",
+    "name": "Karim Rashid",
+    "slug": "karim-rashid",
+    "discipline": "Product",
+    "location": "New York, USA",
+    "website": "https://www.karimrashid.com",
+    "email": null,
+    "bio": "Industrial designer known for distinctive use of colors, fluid forms, and innovative materials. 'I want to change the world one object at a time.'",
+    "avatar": "linear-gradient(135deg, #ff0099 0%, #493210 100%)",
+    "featured": true,
+    "tags": ["product-design", "industrial-design", "colorful", "innovative"],
+    "projects": [
+      {
+        "title": "Product Design Portfolio",
+        "description": "Over 4000 designs in production spanning furniture, lighting, home accessories, and more.",
+        "tools": ["SolidWorks", "KeyShot"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #ff0099 0%, #ff6b6b 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/karim_rashid",
+      "linkedin": "https://linkedin.com/in/karimrashid",
+      "github": null
+    }
   }
 ]
