@@ -8,8 +8,8 @@ Use this template to submit your design portfolio. Fork the repository, create y
 ---
 title: Your Name
 title_en: Your Name (English)
-discipline: [Architecture/UX/UI/Product/Interior/Graphic]
-discipline_en: [Architecture/User Experience Design/Product Design/Interior Design/Graphic Design]
+discipline: [Architecture/UX/UI/Product/Interior/Graphic/DesignEngineering]
+discipline_en: [Architecture/User Experience Design/Product Design/Interior Design/Graphic Design/Design Engineering]
 location: [City, Country]
 location_en: [City, Country]
 website: [https://your-portfolio.com]

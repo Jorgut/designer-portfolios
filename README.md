@@ -11,6 +11,7 @@ A comprehensive designer portfolio platform combining GitHub-hosted contribution
 - **Interior Landscape** - Interior design and landscape architecture
 - **UX/UI Designers** - User experience and interface design
 - **Product Designers** - Product design and user experience
+- **Design Engineers** - Developer-designers who build quality UIs with code
 
 ### Design Portfolio Categories
 1. **Graphic Design** - Visual identity, branding, illustration
@@ -20,6 +21,7 @@ A comprehensive designer portfolio platform combining GitHub-hosted contribution
 5. **Interior Design** - Space planning, furniture design
 6. **Landscape Architecture** - Outdoor space design
 7. **Motion Design** - Animation, GIFs, interactive media
+8. **Design Engineering** - Developer-designers, design systems, frontend UI/UX with code
 
 ## Features
 
@@ -37,10 +39,11 @@ A comprehensive designer portfolio platform combining GitHub-hosted contribution
 - **Design Awards & Recognition** - Portfolio achievements
 
 ### 🎨 Designer-Specific Tools
-- **Discipline-Specific Filters** - Sort by architecture, UX/UI, product, etc.
+- **Discipline-Specific Filters** - Sort by architecture, UX/UI, product, design engineering, etc.
 - **Portfolio Evaluation System** - Designer portfolio review process
 - **Design Resource Sharing** - Tools, tutorials, inspiration resources
 - **Design Community Guidelines** - Professional standards and best practices
+- **Design Engineer Spotlight** - Highlighting developer-designers who build quality UIs
 
 ## Quick Start Guide
 

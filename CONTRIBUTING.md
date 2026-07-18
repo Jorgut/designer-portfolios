@@ -40,6 +40,13 @@ We welcome design portfolios from all disciplines and career levels. Your portfo
 - Product design and interaction design
 - Mobile app design
 
+#### 💻 Design Engineering
+- Developer-designers who build quality UIs with code
+- Design systems and component libraries
+- Frontend UI/UX with React, Vue, Next.js, etc.
+- Interactive prototypes and code-based designs
+- Motion design with CSS/JS animations
+
 #### 🖼️ Graphic & Visual Design
 - Branding and identity design
 - Illustration and artwork
@@ -51,6 +58,13 @@ We welcome design portfolios from all disciplines and career levels. Your portfo
 - Plugin development
 - Design systems and components
 - Prototyping tools
+
+#### ⚡ Design Engineer Portfolio Examples
+Inspired by developer portfolios with excellent design quality:
+- **Adham Dannaway** - Product designer specializing in UI design and design systems
+- **Brittany Chiang** - Frontend engineer with pixel-perfect accessible UIs
+- **Artur Bień** - "I build quality UIs for fun"
+- **Aneeth Kumaar** - Graphic Designer & Programmer
 
 ## 🏗️ Repository Structure
 

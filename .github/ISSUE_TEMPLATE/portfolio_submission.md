@@ -10,7 +10,7 @@ assignees: ''
 
 ### Designer Information
 - **Name:** [Your Full Name]
-- **Discipline:** [Architecture / UX/UI / Product Design / Interior Design / Graphic Design]
+- **Discipline:** [Architecture / UX/UI / Product Design / Interior Design / Graphic Design / Design Engineering]
 - **Location:** [City, Country]
 - **Portfolio Website:** [https://your-website.com]
 - **Email:** [your.email@example.com]
