@@ -1,8 +1,8 @@
-# Designer Portfolio Platform
+# Designer Portfolio Collection
 
 ## Overview
 
-A comprehensive designer portfolio platform combining GitHub-hosted contributions and real-time web applications for design inspiration and professional networking.
+个人设计案例学习库，收集优秀的设计作品集网站，方便学习和参考。
 
 ## Target Designer Disciplines
 
@@ -25,25 +25,10 @@ A comprehensive designer portfolio platform combining GitHub-hosted contribution
 
 ## Features
 
-### 🌟 Essential Features
-- **Portfolio Showcase Gallery** - A-Z browsing of designer portfolios
-- **Inspiration Browsing** - Curated design collections
-- **Community Contributions** - Designer-friendly submission system
-- **Designer Social Network** - Professional connections and engagement
-
-### 🛠️ Collaboration Tools
-- **Design Portfolio Comparison** - Compare portfolios by discipline
-- **Design Process Documentation** - Showcase design workflows
-- **Collaboration Tools Showcase** - Designer tools and workflows
-- **Client Testimonials Integration** - Portfolio credibility features
-- **Design Awards & Recognition** - Portfolio achievements
-
-### 🎨 Designer-Specific Tools
-- **Discipline-Specific Filters** - Sort by architecture, UX/UI, product, design engineering, etc.
-- **Portfolio Evaluation System** - Designer portfolio review process
-- **Design Resource Sharing** - Tools, tutorials, inspiration resources
-- **Design Community Guidelines** - Professional standards and best practices
-- **Design Engineer Spotlight** - Highlighting developer-designers who build quality UIs
+- **案例收集** - 按字母顺序浏览设计师作品集
+- **分类筛选** - 按设计领域（建筑/室内/UX/UI/产品/Design Engineering）筛选
+- **学习参考** - 分析优秀作品的设计思路和技术实现
+- **持续更新** - 发现好的案例随时添加
 
 ## Quick Start Guide
 
@@ -235,20 +220,19 @@ designer-portfolios/
 
 This project is open source under the MIT License. See `LICENSE.md` for details.
 
-## Attribution
+## About
 
-This project was inspired by:
-- [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) - Developer portfolio community
+这是一个个人设计案例学习库，用于收集和整理优秀的设计作品集网站，方便自己学习和参考。
 
----
+主要关注：
+- **建筑设计师** - 建筑可视化、空间设计
+- **室内/景观设计师** - 空间规划、环境设计
+- **UX/UI设计师** - 用户体验、界面设计
+- **产品设计师** - 工业设计、产品交互
+- **Design Engineer** - 设计与开发的交叉领域
 
-**Ready to Join the Designer Community?**
+## How to Use
 
-If you are a designer looking to showcase your work, welcome to the Designer Portfolio Platform! We invite you to:
-
-1. **Fork** this repository
-2. **Submit your portfolio** via Pull Request
-3. **Wait for review** from maintainers
-4. **Get featured** in the community
-
-Together, we can build the ultimate design portfolio resource for designers worldwide!
+1. **浏览案例** - 按字母顺序或设计领域筛选
+2. **学习参考** - 分析优秀作品的设计思路和技术实现
+3. **添加案例** - 发现好的设计作品集可以提交PR添加
