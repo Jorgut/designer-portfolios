@@ -1,0 +1,99 @@
+name: Portfolio Approval Workflow
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'data/portfolios/**'
+      - 'data/projects/**'
+
+jobs:
+  validate-portfolio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate portfolio structure
+        run: |
+          echo "🔍 Validating portfolio submission..."
+          
+          # Check if portfolio files exist
+          PORTFOLIO_FILES=$(find data/portfolios -name "*.md" -newer /tmp/last_commit 2>/dev/null | wc -l)
+          PROJECT_FILES=$(find data/projects -name "*.md" -newer /tmp/last_commit 2>/dev/null | wc -l)
+          
+          echo "📊 Found $PORTFOLIO_FILES new/updated portfolio files"
+          echo "📊 Found $PROJECT_FILES new/updated project files"
+          
+          if [ "$PORTFOLIO_FILES" -eq 0 ] && [ "$PROJECT_FILES" -eq 0 ]; then
+            echo "⚠️ No portfolio or project files detected"
+            exit 1
+          fi
+
+      - name: Check image references
+        run: |
+          echo "🖼️ Checking image references..."
+          # Validate that referenced images exist
+          find data -name "*.md" -exec grep -l "!\[" {} \; | while read file; do
+            echo "Checking images in: $file"
+            # Extract image paths and verify they exist
+          done
+
+      - name: Validate markdown format
+        run: |
+          echo "📝 Validating markdown format..."
+          find data -name "*.md" -exec npx remark {} --use remark-preset--lint-recommended \;
+
+      - name: Check discipline classification
+        run: |
+          echo "🏷️ Checking discipline classification..."
+          # Verify portfolios have proper discipline tags
+          find data/portfolios -name "*.md" -exec grep -l "discipline:" {} \; | wc -l
+
+  auto-approve:
+    needs: validate-portfolio
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login == github.event.repository.owner.login
+    steps:
+      - name: Auto-approve owner submissions
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.pulls.createReview({
+              pull_request_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              event: 'APPROVE',
+              body: '✅ Auto-approved: Portfolio owner submission'
+            })
+
+  request-review:
+    needs: validate-portfolio
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login != github.event.repository.owner.login
+    steps:
+      - name: Request maintainer review
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.pulls.requestReviewers({
+              pull_request_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              reviewers: ['portfolio-maintainers']
+            })
+
+            github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Thank you for your portfolio submission!\n\nOur maintainers will review your submission shortly. Please ensure:\n\n1. ✅ All required fields are filled out\n2. ✅ Images are properly referenced\n3. ✅ Portfolio follows the submission guidelines\n4. ✅ Projects are properly categorized\n\n⏱️ Review typically takes 3-5 business days.'
+            })

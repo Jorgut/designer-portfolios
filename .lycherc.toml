@@ -1,0 +1,21 @@
+title = "Designer Portfolio Platform"
+description = "A curated collection of designer portfolios for inspiration"
+base_url = "https://designer-portfolios.vercel.app"
+
+exclude = [
+  'node_modules',
+  '.next',
+  'dist',
+  'build',
+  '.git'
+]
+
+ignore_patterns = [
+  '.github/**',
+  'docs/**'
+]
+
+exclude_patterns = [
+  '^/api',
+  '^/admin'
+]
