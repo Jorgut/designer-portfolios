@@ -1,85 +1,53 @@
-# Designer Portfolio Template
+# 设计案例模板
 
-Use this template to submit your design portfolio. Fork the repository, create your folder, and submit a pull request.
-
----
+添加新案例时使用此模板。
 
 ```markdown
 ---
-title: Your Name
-title_en: Your Name (English)
-discipline: [Architecture/UX/UI/Product/Interior/Graphic/DesignEngineering]
-discipline_en: [Architecture/User Experience Design/Product Design/Interior Design/Graphic Design/Design Engineering]
-location: [City, Country]
-location_en: [City, Country]
-website: [https://your-portfolio.com]
-email: [your.email@example.com]
-avatar: /assets/avatars/yourname.jpg
+name: 设计师姓名
+name_en: Designer Name
+discipline: Architecture | UX-UI | Product | Interior | Landscape | DesignEngineering
+website: https://portfolio-url.com
+location: 城市, 国家
+location_en: City, Country
 completion_year: 2024
-featured: false
-tags: [architecture, ux-ui, product-design, sustainable]
+tags: [tag1, tag2, tag3]
 ---
 
-# Your Name - Design Portfolio
+# 设计师姓名
 
-## About Me
+## 简介
+2-3句话介绍设计师和他们的设计方向
 
-[Write 2-3 sentences about yourself and your design journey]
+## 设计特点
+- 设计风格
+- 专注领域
+- 技术栈/工具
 
-## Design Philosophy
+## 代表作品
 
-[Your approach to design, influences, and principles]
+### 作品1: 作品名称
+- **领域:** Architecture/UX/Product
+- **链接:** [查看作品](url)
+- **亮点:** 简述为什么值得学习
 
-## Core Expertise
+### 作品2: 作品名称
+- **领域:** Architecture/UX/Product
+- **链接:** [查看作品](url)
+- **亮点:** 简述为什么值得学习
 
-- [Skill 1]
-- [Skill 2]
-- [Skill 3]
-
-## Featured Projects
-
-### Project 1: Project Name
-**Discipline:** [Architecture/UX/Product/Interior Design]
-**Year:** 2024
-
-**Project Overview:**
-[Brief description of the project]
-
-**Design Process:**
-1. [Research phase]
-2. [Concept development]
-3. [Design iterations]
-4. [Implementation]
-
-**Tools Used:**
-- [Software 1]
-- [Software 2]
-
-**Challenges & Solutions:**
-[Key challenges and how you solved them]
-
-### Project 2: Another Project
-**Discipline:** [Design discipline]
-**Year:** 2023
-
-[Brief project description]
-
-## Awards & Recognition
-
-- [Award 1, Year]
-- [Award 2, Year]
-
-## Professional Experience
-
-### Company Name - Position
-**Duration:** 2022 - Present
-
-[Key responsibilities and achievements]
-
-## Contact
-
-**Email:** [your.email@example.com]
-**LinkedIn:** [URL]
-**Behance:** [URL]
-**Website:** [https://your-portfolio.com]
+## 学习要点
+- [ ] 可以学习的设计思路
+- [ ] 值得参考的技术实现
+- [ ] 设计亮点分析
 ```
+
+## 字段说明
+
+| 字段 | 说明 |
+|------|------|
+| name | 设计师姓名 |
+| discipline | 设计领域 |
+| website | 作品集网站 |
+| location | 所在地 |
+| tags | 标签，方便筛选 |
