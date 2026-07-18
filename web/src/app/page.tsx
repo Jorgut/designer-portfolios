@@ -1,65 +1,156 @@
-import Image from "next/image";
+"use client";
+
+import { useState, useEffect } from "react";
+import portfolios from "@/data/portfolios.json";
+
+type Portfolio = (typeof portfolios)[0];
+
+const disciplines = ["All", ...new Set(portfolios.map((p) => p.discipline))];
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 export default function Home() {
+  const [selectedDiscipline, setSelectedDiscipline] = useState("All");
+  const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
+
+  const filteredPortfolios = portfolios.filter((p) => {
+    const matchesDiscipline =
+      selectedDiscipline === "All" || p.discipline === selectedDiscipline;
+    const matchesLetter = !selectedLetter || p.name[0].toUpperCase() === selectedLetter;
+    return matchesDiscipline && matchesLetter;
+  });
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen">
+      <header className="sticky top-0 z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+          <h1 className="text-xl font-bold">
+            设计案例学习库
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="p-2 rounded-lg hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            {darkMode ? "☀️" : "🌙"}
+          </button>
         </div>
+      </header>
+
+      <main className="max-w-6xl mx-auto px-4 py-8">
+        <div className="mb-8">
+          <div className="flex flex-wrap gap-2 mb-4">
+            {disciplines.map((d) => (
+              <button
+                key={d}
+                onClick={() => setSelectedDiscipline(d)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                  selectedDiscipline === d
+                    ? "bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900"
+                    : "bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700"
+                }`}
+              >
+                {d}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap gap-1">
+            <button
+              onClick={() => setSelectedLetter(null)}
+              className={`w-8 h-8 rounded text-sm font-medium transition-colors ${
+                !selectedLetter
+                  ? "bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900"
+                  : "hover:bg-zinc-100 dark:hover:bg-zinc-800"
+              }`}
+            >
+              All
+            </button>
+            {letters.map((l) => (
+              <button
+                key={l}
+                onClick={() => setSelectedLetter(l)}
+                className={`w-8 h-8 rounded text-sm font-medium transition-colors ${
+                  selectedLetter === l
+                    ? "bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900"
+                    : "hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                }`}
+              >
+                {l}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredPortfolios.map((portfolio) => (
+            <PortfolioCard key={portfolio.id} portfolio={portfolio} />
+          ))}
+        </div>
+
+        {filteredPortfolios.length === 0 && (
+          <div className="text-center py-12 text-zinc-500">
+            没有找到匹配的案例
+          </div>
+        )}
       </main>
+
+      <footer className="border-t border-zinc-200 dark:border-zinc-800 py-8 mt-12">
+        <div className="max-w-6xl mx-auto px-4 text-center text-sm text-zinc-500">
+          个人设计案例学习库 · {portfolios.length} 个案例
+        </div>
+      </footer>
     </div>
+  );
+}
+
+function PortfolioCard({ portfolio }: { portfolio: Portfolio }) {
+  return (
+    <a
+      href={portfolio.website}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group block bg-white dark:bg-zinc-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
+    >
+      <div
+        className="h-32 w-full"
+        style={{ background: portfolio.avatar }}
+      />
+
+      <div className="p-5">
+        <h2 className="text-lg font-semibold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+          {portfolio.name}
+        </h2>
+        <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+          {portfolio.location}
+        </p>
+
+        <span className="inline-block mt-3 px-3 py-1 text-xs font-medium bg-zinc-100 dark:bg-zinc-700 rounded-full">
+          {portfolio.discipline}
+        </span>
+
+        <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-300 line-clamp-2">
+          {portfolio.bio}
+        </p>
+
+        <div className="mt-4 flex flex-wrap gap-1">
+          {portfolio.tags.slice(0, 3).map((tag) => (
+            <span
+              key={tag}
+              className="text-xs px-2 py-0.5 bg-zinc-50 dark:bg-zinc-700/50 rounded text-zinc-600 dark:text-zinc-400"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    </a>
   );
 }

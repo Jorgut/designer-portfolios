@@ -1,0 +1,158 @@
+[
+  {
+    "id": "adham-dannaway",
+    "name": "Adham Dannaway",
+    "slug": "adham-dannaway",
+    "discipline": "Design Engineering",
+    "location": "Sydney, Australia",
+    "website": "https://www.adhamdannaway.com",
+    "email": "hello@adhamdannaway.com",
+    "bio": "Product designer specialising in UI design and design systems, with a passion for frontend development. I bridge the gap between design and code.",
+    "avatar": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "featured": true,
+    "tags": ["design-engineering", "ui-design", "design-systems", "frontend"],
+    "projects": [
+      {
+        "title": "Figma Design System",
+        "description": "A comprehensive design system built in Figma, featuring component libraries, design tokens, and documentation.",
+        "tools": ["Figma", "Storybook", "React"],
+        "year": 2025,
+        "gradient": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)"
+      },
+      {
+        "title": "UI Design Book",
+        "description": "Authored a comprehensive guide on UI design principles, covering typography, color theory, layout, and interaction patterns.",
+        "tools": ["Figma", "InDesign"],
+        "year": 2022,
+        "gradient": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/AdhamDannaway",
+      "linkedin": "https://linkedin.com/in/adhamdannaway",
+      "github": null
+    }
+  },
+  {
+    "id": "brittany-chiang",
+    "name": "Brittany Chiang",
+    "slug": "brittany-chiang",
+    "discipline": "Design Engineering",
+    "location": "Boston, USA",
+    "website": "https://brittanychiang.com",
+    "email": "brittany@chiang.dev",
+    "bio": "Frontend engineer with expertise in crafting accessible, pixel-perfect user interfaces. I work at the intersection of design and engineering.",
+    "avatar": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+    "featured": true,
+    "tags": ["design-engineering", "frontend", "accessibility", "react"],
+    "projects": [
+      {
+        "title": "Klaviyo Design System",
+        "description": "Leading engineering efforts across Klaviyo's component library and frontend platform, ensuring accessibility.",
+        "tools": ["React", "TypeScript", "Storybook"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)"
+      },
+      {
+        "title": "Spotify Profile",
+        "description": "Web app for visualizing personalized Spotify data with beautiful data visualization and interaction design.",
+        "tools": ["React", "Express", "Spotify API"],
+        "year": 2023,
+        "gradient": "linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": "https://linkedin.com/in/bchiang7",
+      "github": "https://github.com/bchiang7"
+    }
+  },
+  {
+    "id": "artur-bien",
+    "name": "Artur Bień",
+    "slug": "artur-bien",
+    "discipline": "Design Engineering",
+    "location": "Poland",
+    "website": "https://expensive.toys",
+    "email": "artur@expensive.toys",
+    "bio": "I build quality UIs for fun. Frontend developer and UI enthusiast with a passion for creating beautiful, interactive interfaces.",
+    "avatar": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "featured": true,
+    "tags": ["design-engineering", "ui-design", "animations", "react"],
+    "projects": [
+      {
+        "title": "expensive.toys",
+        "description": "Personal portfolio and blog showcasing UI experiments, design explorations, and frontend engineering projects.",
+        "tools": ["React", "CSS Animations", "Vercel"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)"
+      },
+      {
+        "title": "UI Experiments",
+        "description": "Collection of interactive UI experiments exploring new design patterns and animation techniques.",
+        "tools": ["React", "Framer Motion", "Three.js"],
+        "year": 2023,
+        "gradient": "linear-gradient(135deg, #fdcbf1 0%, #e6dee9 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/artur_bien",
+      "linkedin": null,
+      "github": "https://github.com/arturbien"
+    }
+  },
+  {
+    "id": "andy-bell",
+    "name": "Andy Bell",
+    "slug": "andy-bell",
+    "discipline": "Design Engineering",
+    "location": "United Kingdom",
+    "website": "https://andy-bell.design",
+    "email": "hello@andy-bell.design",
+    "bio": "Designer and frontend developer who loves CSS, design systems, and building accessible web experiences. Crafting for the web for over 20 years.",
+    "avatar": "linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%)",
+    "featured": true,
+    "tags": ["design-engineering", "css", "design-systems", "accessibility"],
+    "projects": [
+      {
+        "title": "Piccalilli",
+        "description": "A design system and blog built with modern CSS techniques, showcasing container queries and cascade layers.",
+        "tools": ["HTML", "CSS", "Eleventy"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)"
+      }
+    ],
+    "social": {
+      "twitter": "https://twitter.com/andybelldesign",
+      "linkedin": null,
+      "github": "https://github.com/andybelldesign"
+    }
+  },
+  {
+    "id": "aneeth-kumaar",
+    "name": "Aneeth Kumaar",
+    "slug": "aneeth-kumaar",
+    "discipline": "Design Engineering",
+    "location": "India",
+    "website": "https://akwastaken.github.io",
+    "email": "aneeth@design.dev",
+    "bio": "Graphic Designer | Programmer. Blending visual design with code to create unique digital experiences.",
+    "avatar": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+    "featured": false,
+    "tags": ["design-engineering", "graphic-design", "creative-coding"],
+    "projects": [
+      {
+        "title": "Creative Coding Experiments",
+        "description": "Collection of generative art and interactive design experiments using code as a creative medium.",
+        "tools": ["JavaScript", "p5.js", "CSS"],
+        "year": 2024,
+        "gradient": "linear-gradient(135deg, #fddb92 0%, #d1fdff 100%)"
+      }
+    ],
+    "social": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/akwastaken"
+    }
+  }
+]
