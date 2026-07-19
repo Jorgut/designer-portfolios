@@ -176,10 +176,23 @@ function PortfolioCard({ portfolio, index }: { portfolio: Portfolio; index: numb
       className="glass-card block group animate-in"
       style={{ animationDelay: `${Math.min(index * 50, 300)}ms` }}
     >
-      <div
-        className="avatar-gradient h-28 w-full"
-        style={{ background: portfolio.avatar }}
-      />
+      <div className="relative h-40 w-full overflow-hidden">
+        <img 
+          src={`https://image.thum.io/get/width/600/height/400/${portfolio.website}`}
+          alt={`${portfolio.name} portfolio screenshot`}
+          className="w-full h-full object-cover"
+          loading="lazy"
+          onError={(e) => {
+            e.currentTarget.style.display = 'none';
+            const fallback = e.currentTarget.nextElementSibling as HTMLElement;
+            if (fallback) fallback.classList.remove('hidden');
+          }}
+        />
+        <div 
+          className="absolute inset-0 hidden"
+          style={{ background: portfolio.avatar }}
+        />
+      </div>
 
       <div className="p-5">
         <div className="flex items-start justify-between gap-2 mb-2">
