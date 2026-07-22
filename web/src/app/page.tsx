@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import portfolios from "@/data/portfolios.json";
 
 type Portfolio = (typeof portfolios)[number];
@@ -40,12 +40,12 @@ const translations = {
 const disciplines = ["All", "Architecture", "UX-UI", "Product", "Interior", "Design Engineering"];
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-const disciplineColors: Record<string, { border: string; badge: string }> = {
-  "Architecture":       { border: "#3b82f6", badge: "bg-blue-500/15 text-blue-400 border-blue-500/25" },
-  "UX-UI":              { border: "#ec4899", badge: "bg-pink-500/15 text-pink-400 border-pink-500/25" },
-  "Product":            { border: "#f59e0b", badge: "bg-amber-500/15 text-amber-400 border-amber-500/25" },
-  "Interior":           { border: "#10b981", badge: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" },
-  "Design Engineering": { border: "#8b5cf6", badge: "bg-violet-500/15 text-violet-400 border-violet-500/25" },
+const disciplineColors: Record<string, { border: string; glow: string; badge: string }> = {
+  "Architecture":       { border: "#3b82f6", glow: "rgba(59,130,246,0.5)",  badge: "bg-blue-500/15 text-blue-400 border-blue-500/25" },
+  "UX-UI":              { border: "#ec4899", glow: "rgba(236,72,153,0.5)",  badge: "bg-pink-500/15 text-pink-400 border-pink-500/25" },
+  "Product":            { border: "#f59e0b", glow: "rgba(245,158,11,0.5)", badge: "bg-amber-500/15 text-amber-400 border-amber-500/25" },
+  "Interior":           { border: "#10b981", glow: "rgba(16,185,129,0.5)", badge: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" },
+  "Design Engineering": { border: "#8b5cf6", glow: "rgba(139,92,246,0.5)", badge: "bg-violet-500/15 text-violet-400 border-violet-500/25" },
 };
 
 export default function Home() {
@@ -54,11 +54,18 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [mounted, setMounted] = useState(false);
   const [lang, setLang] = useState<Lang>("zh");
+  const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
     setMounted(true);
     const saved = localStorage.getItem("lang") as Lang | null;
     if (saved === "zh" || saved === "en") setLang(saved);
+  }, []);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const toggleLang = useCallback(() => {
@@ -93,15 +100,21 @@ export default function Home() {
     <>
       <div className="mesh-gradient" />
       <div className="noise-overlay" />
+      <div className="stars-layer" style={{ transform: `translateY(${scrollY * 0.1}px)` }} />
+      <div className="orbs-container">
+        <div className="orb orb-1" />
+        <div className="orb orb-2" />
+        <div className="orb orb-3" />
+      </div>
 
       <div className="relative z-10 min-h-screen">
-        <header className="sticky top-0 z-50 border-b border-white/[0.04] bg-[#050510]/60 backdrop-blur-xl">
+        <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.06] bg-[#03030a]/70 backdrop-blur-2xl">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-pink-500 flex items-center justify-center text-white text-sm font-bold">
+              <div className="logo-mark w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 via-pink-500 to-orange-400 flex items-center justify-center text-white text-sm font-bold shadow-lg shadow-violet-500/30">
                 D
               </div>
-              <span className="text-sm font-medium text-zinc-300 tracking-wide">{t.siteTitle}</span>
+              <span className="text-sm font-semibold text-zinc-200 tracking-wide">{t.siteTitle}</span>
             </div>
             <div className="flex items-center gap-4">
               <span className="text-xs text-zinc-500">{portfolios.length} {t.portfolios}</span>
@@ -109,7 +122,7 @@ export default function Home() {
                 href="https://github.com/Jorgut/designer-portfolios"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-zinc-500 hover:text-zinc-300 transition-colors"
+                className="github-link text-zinc-500 hover:text-zinc-200 transition-all"
                 title="GitHub"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -118,7 +131,7 @@ export default function Home() {
               </a>
               <button
                 onClick={toggleLang}
-                className="text-xs font-medium text-zinc-400 hover:text-zinc-200 transition-colors px-2 py-1 rounded border border-white/[0.08] hover:border-white/[0.15] cursor-pointer"
+                className="lang-btn text-xs font-semibold text-zinc-400 hover:text-zinc-200 transition-all px-3 py-1.5 rounded-lg border border-white/[0.08] hover:border-violet-500/50 hover:bg-violet-500/10 cursor-pointer"
               >
                 {lang === "zh" ? "EN" : "中文"}
               </button>
@@ -127,51 +140,62 @@ export default function Home() {
         </header>
 
         <main className="max-w-7xl mx-auto px-6">
-          <section className="relative py-24 text-center overflow-hidden">
+          <section className="relative pt-40 pb-24 text-center overflow-hidden">
             <div className="hero-glow bg-violet-600" style={{ top: "-200px", left: "20%" }} />
             <div className="hero-glow bg-pink-600" style={{ top: "-100px", right: "10%", animationDelay: "3s" }} />
 
-            <h1 className={`text-5xl md:text-7xl font-bold tracking-tight mb-6 transition-all duration-1000 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              <span className="glow-text">{t.heroTitle1}</span>
-              <span className="text-zinc-100"> {t.heroTitle2}</span>
-            </h1>
-            <p className={`text-lg text-zinc-400 max-w-xl mx-auto mb-10 transition-all duration-1000 delay-200 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              {t.subtitle}
-            </p>
+            <div className={`transition-all duration-1200 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
+              <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter mb-8">
+                <span className="glow-text text-transparent bg-clip-text">{t.heroTitle1}</span>
+                <br />
+                <span className="text-white/90">{t.heroTitle2}</span>
+              </h1>
+              <p className="text-lg md:text-xl text-zinc-400/80 max-w-2xl mx-auto mb-12 leading-relaxed">
+                {t.subtitle}
+              </p>
+            </div>
 
-            <div className={`max-w-md mx-auto transition-all duration-1000 delay-300 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-              <div className="relative">
-                <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-                <input
-                  type="text"
-                  placeholder={t.searchPlaceholder}
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-11 pr-4 py-3 rounded-xl bg-white/[0.04] border border-white/[0.08] text-sm text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-violet-500/40 focus:bg-white/[0.06] transition-all"
-                />
+            <div className={`max-w-lg mx-auto transition-all duration-1000 delay-300 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+              <div className="search-container relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 via-pink-600 to-orange-500 rounded-2xl opacity-0 group-hover:opacity-20 group-focus-within:opacity-30 transition-opacity duration-500 blur-lg" />
+                <div className="relative flex items-center">
+                  <svg className="absolute left-5 w-5 h-5 text-zinc-500 group-focus-within:text-violet-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                  <input
+                    type="text"
+                    placeholder={t.searchPlaceholder}
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full pl-13 pr-6 py-4 rounded-2xl bg-white/[0.05] border border-white/[0.1] text-sm text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-violet-500/50 focus:bg-white/[0.08] transition-all duration-300"
+                  />
+                </div>
               </div>
             </div>
           </section>
 
           <section className="mb-8">
-            <div className="flex flex-wrap gap-2 justify-center">
-              {disciplines.map((d) => (
+            <div className="flex flex-wrap gap-3 justify-center">
+              {disciplines.map((d, i) => (
                 <button
                   key={d}
                   onClick={() => setSelectedDiscipline(d)}
-                  className={`glass-pill px-4 py-2 text-sm font-medium cursor-pointer ${selectedDiscipline === d ? 'active' : 'text-zinc-400'}`}
+                  className={`glass-pill px-5 py-2.5 text-sm font-medium cursor-pointer transition-all duration-300 ${
+                    selectedDiscipline === d 
+                      ? 'active bg-white/10 text-white border-white/20 shadow-lg shadow-white/5' 
+                      : 'text-zinc-400 hover:text-zinc-200 hover:bg-white/[0.06]'
+                  }`}
+                  style={{ animationDelay: `${i * 50}ms` }}
                 >
                   {d}
-                  <span className="ml-1.5 text-xs opacity-50">{disciplineCounts[d] || 0}</span>
+                  <span className="ml-2 text-xs opacity-60">{disciplineCounts[d] || 0}</span>
                 </button>
               ))}
             </div>
           </section>
 
-          <section className="mb-10">
-            <div className="flex flex-wrap gap-1 justify-center">
+          <section className="mb-12">
+            <div className="flex flex-wrap gap-1.5 justify-center">
               <button
                 onClick={() => setSelectedLetter(null)}
                 className={`letter-btn ${!selectedLetter ? 'active' : ''}`}
@@ -195,26 +219,26 @@ export default function Home() {
 
           <div className="section-divider" />
 
-          <section className="py-8">
-            <div className="flex items-center justify-between mb-6">
+          <section className="py-12">
+            <div className="flex items-center justify-between mb-8">
               <p className="text-sm text-zinc-500">
                 {filteredPortfolios.length} {t.cases}
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredPortfolios.map((portfolio, index) => (
                 <PortfolioCard key={portfolio.id} portfolio={portfolio} index={index} />
               ))}
             </div>
 
             {filteredPortfolios.length === 0 && (
-              <div className="text-center py-20">
-                <div className="text-4xl mb-4 opacity-30">∅</div>
-                <p className="text-zinc-500 text-sm">{t.emptyState}</p>
+              <div className="text-center py-24">
+                <div className="text-6xl mb-6 opacity-20">∅</div>
+                <p className="text-zinc-500 text-lg">{t.emptyState}</p>
                 <button
                   onClick={() => { setSelectedDiscipline("All"); setSelectedLetter(null); setSearchQuery(""); }}
-                  className="mt-4 text-sm text-violet-400 hover:text-violet-300 transition-colors cursor-pointer"
+                  className="mt-6 text-sm text-violet-400 hover:text-violet-300 transition-colors cursor-pointer underline underline-offset-4"
                 >
                   {t.clearFilter}
                 </button>
@@ -223,7 +247,7 @@ export default function Home() {
           </section>
         </main>
 
-        <footer className="border-t border-white/[0.04] py-12 mt-12">
+        <footer className="border-t border-white/[0.06] py-16 mt-16">
           <div className="max-w-7xl mx-auto px-6 text-center">
             <p className="text-xs text-zinc-600">
               {t.footer} · {portfolios.length} {t.casesCount} · 5 {t.disciplines}
@@ -237,23 +261,57 @@ export default function Home() {
 
 function PortfolioCard({ portfolio, index }: { portfolio: Portfolio; index: number }) {
   const colors = disciplineColors[portfolio.discipline] || disciplineColors["Design Engineering"];
+  const cardRef = useRef<HTMLAnchorElement>(null);
+  const [tilt, setTilt] = useState({ x: 0, y: 0 });
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (!cardRef.current) return;
+    const rect = cardRef.current.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width;
+    const y = (e.clientY - rect.top) / rect.height;
+    setTilt({
+      x: (y - 0.5) * -15,
+      y: (x - 0.5) * 15,
+    });
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    setTilt({ x: 0, y: 0 });
+    setIsHovered(false);
+  }, []);
 
   return (
     <a
+      ref={cardRef}
       href={portfolio.website}
       target="_blank"
       rel="noopener noreferrer"
-      className="glass-card block group animate-in"
+      className="portfolio-card block group"
       style={{
-        animationDelay: `${Math.min(index * 60, 360)}ms`,
-        borderTop: `2px solid ${colors.border}`,
+        animationDelay: `${Math.min(index * 80, 400)}ms`,
+        transform: `perspective(1000px) rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
+        transformStyle: "preserve-3d",
       }}
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={handleMouseLeave}
     >
-      <div className="relative h-64 w-full overflow-hidden rounded-t-[11px]">
+      <div 
+        className="card-glow"
+        style={{
+          background: `radial-gradient(circle at ${(tilt.y / 15 + 0.5) * 100}% ${(tilt.x / -15 + 0.5) * 100}%, ${colors.glow}, transparent 70%)`,
+          opacity: isHovered ? 0.4 : 0,
+        }}
+      />
+      
+      <div className="card-border" style={{ borderColor: isHovered ? colors.border : 'rgba(255,255,255,0.08)' }} />
+
+      <div className="relative h-64 w-full overflow-hidden rounded-t-2xl">
         <img
           src={`https://image.thum.io/get/width/800/height/600/${portfolio.website}`}
           alt={`${portfolio.name} portfolio screenshot`}
-          className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
           loading="lazy"
           onError={(e) => {
             e.currentTarget.style.display = 'none';
@@ -261,41 +319,49 @@ function PortfolioCard({ portfolio, index }: { portfolio: Portfolio; index: numb
             if (fallback) fallback.classList.remove('hidden');
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-transparent to-transparent opacity-80 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#08081a] via-[#08081a]/20 to-transparent opacity-90 pointer-events-none" />
         <div
           className="absolute inset-0 hidden"
           style={{ background: portfolio.avatar }}
         />
+        
+        <div 
+          className="card-shine"
+          style={{
+            background: `linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.03) 45%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.03) 55%, transparent 60%)`,
+            transform: `translateX(${(tilt.y / 15) * 100}%)`,
+          }}
+        />
       </div>
 
-      <div className="p-5 pt-3">
-        <div className="flex items-start justify-between gap-2 mb-2">
-          <h3 className="text-base font-semibold text-zinc-100 group-hover:text-white transition-colors leading-tight">
+      <div className="p-6 pt-4 relative">
+        <div className="flex items-start justify-between gap-2 mb-3">
+          <h3 className="text-lg font-semibold text-zinc-100 group-hover:text-white transition-colors leading-tight">
             {portfolio.name}
           </h3>
-          <svg className="w-4 h-4 text-zinc-600 group-hover:text-violet-400 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 text-zinc-600 group-hover:text-violet-400 transition-all group-hover:translate-x-1 group-hover:-translate-y-1 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
           </svg>
         </div>
 
-        <p className="text-xs text-zinc-500 mb-3">{portfolio.location}</p>
+        <p className="text-xs text-zinc-500 mb-4">{portfolio.location}</p>
 
-        <div className="flex items-center gap-2 mb-3">
-          <span className={`inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-semibold border ${colors.badge}`}>
+        <div className="flex items-center gap-2 mb-4">
+          <span className={`inline-flex items-center px-3 py-1 rounded-lg text-[11px] font-semibold border ${colors.badge}`}>
             {portfolio.discipline}
           </span>
           {portfolio.featured && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+            <span className="inline-flex items-center px-2 py-1 rounded-lg text-[10px] font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/25">
               ★
             </span>
           )}
         </div>
 
-        <p className="text-sm text-zinc-400 line-clamp-2 mb-4 leading-relaxed">
+        <p className="text-sm text-zinc-400 line-clamp-2 mb-5 leading-relaxed">
           {portfolio.bio}
         </p>
 
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap gap-2">
           {portfolio.tags.slice(0, 3).map((tag) => (
             <span key={tag} className="tag">
               {tag}
