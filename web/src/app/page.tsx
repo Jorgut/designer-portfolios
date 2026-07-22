@@ -40,6 +40,14 @@ const translations = {
 const disciplines = ["All", "Architecture", "UX-UI", "Product", "Interior", "Design Engineering"];
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
+const disciplineColors: Record<string, { border: string; badge: string }> = {
+  "Architecture":       { border: "#3b82f6", badge: "bg-blue-500/15 text-blue-400 border-blue-500/25" },
+  "UX-UI":              { border: "#ec4899", badge: "bg-pink-500/15 text-pink-400 border-pink-500/25" },
+  "Product":            { border: "#f59e0b", badge: "bg-amber-500/15 text-amber-400 border-amber-500/25" },
+  "Interior":           { border: "#10b981", badge: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" },
+  "Design Engineering": { border: "#8b5cf6", badge: "bg-violet-500/15 text-violet-400 border-violet-500/25" },
+};
+
 export default function Home() {
   const [selectedDiscipline, setSelectedDiscipline] = useState("All");
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
@@ -228,19 +236,24 @@ export default function Home() {
 }
 
 function PortfolioCard({ portfolio, index }: { portfolio: Portfolio; index: number }) {
+  const colors = disciplineColors[portfolio.discipline] || disciplineColors["Design Engineering"];
+
   return (
     <a
       href={portfolio.website}
       target="_blank"
       rel="noopener noreferrer"
       className="glass-card block group animate-in"
-      style={{ animationDelay: `${Math.min(index * 50, 300)}ms` }}
+      style={{
+        animationDelay: `${Math.min(index * 60, 360)}ms`,
+        borderTop: `2px solid ${colors.border}`,
+      }}
     >
-      <div className="relative h-40 w-full overflow-hidden">
-        <img 
-          src={`https://image.thum.io/get/width/600/height/400/${portfolio.website}`}
+      <div className="relative h-64 w-full overflow-hidden rounded-t-[11px]">
+        <img
+          src={`https://image.thum.io/get/width/800/height/600/${portfolio.website}`}
           alt={`${portfolio.name} portfolio screenshot`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
           loading="lazy"
           onError={(e) => {
             e.currentTarget.style.display = 'none';
@@ -248,15 +261,16 @@ function PortfolioCard({ portfolio, index }: { portfolio: Portfolio; index: numb
             if (fallback) fallback.classList.remove('hidden');
           }}
         />
-        <div 
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a1a] via-transparent to-transparent opacity-80 pointer-events-none" />
+        <div
           className="absolute inset-0 hidden"
           style={{ background: portfolio.avatar }}
         />
       </div>
 
-      <div className="p-5">
+      <div className="p-5 pt-3">
         <div className="flex items-start justify-between gap-2 mb-2">
-          <h3 className="text-base font-semibold text-zinc-100 group-hover:text-violet-400 transition-colors leading-tight">
+          <h3 className="text-base font-semibold text-zinc-100 group-hover:text-white transition-colors leading-tight">
             {portfolio.name}
           </h3>
           <svg className="w-4 h-4 text-zinc-600 group-hover:text-violet-400 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -267,11 +281,11 @@ function PortfolioCard({ portfolio, index }: { portfolio: Portfolio; index: numb
         <p className="text-xs text-zinc-500 mb-3">{portfolio.location}</p>
 
         <div className="flex items-center gap-2 mb-3">
-          <span className="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-violet-500/10 text-violet-400 border border-violet-500/20">
+          <span className={`inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-semibold border ${colors.badge}`}>
             {portfolio.discipline}
           </span>
           {portfolio.featured && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-medium bg-amber-500/10 text-amber-400 border border-amber-500/20">
+            <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
               ★
             </span>
           )}
