@@ -1,0 +1,45 @@
+name: Discover Portfolios
+
+on:
+  schedule:
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Discover portfolio candidates
+        id: discover
+        run: node scripts/discover-portfolios.js
+
+      - name: Create review PR
+        if: steps.discover.outputs.should_create_pr == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/discover-portfolios.js --create-pr
+
+      - name: Report no-op result
+        if: steps.discover.outputs.should_create_pr != 'true'
+        run: |
+          echo "No new candidate portfolios found in this run."
