@@ -23,7 +23,7 @@ const SOURCE_CONFIGS = [
   {
     name: 'awwwards',
     listingUrl: 'https://www.awwwards.com/websites/portfolio/',
-    detailPattern: /https:\/\/www\.awwwards\.com\/sites\/[a-z0-9-/%]+/gi,
+    detailPattern: /(?:https:\/\/www\.awwwards\.com)?\/sites\/[a-z0-9-/%]+/gi,
     externalLinkPatterns: [
       /href=["'](https?:\/\/(?!www\.awwwards\.com)[^"'#]+)["']/gi,
       /data-url=["'](https?:\/\/(?!www\.awwwards\.com)[^"'#]+)["']/gi,
@@ -54,6 +54,7 @@ const BLOCKED_HOST_PATTERNS = [
   /instagram\.com$/i,
   /twitter\.com$/i,
   /x\.com$/i,
+  /tiktok\.com$/i,
   /linkedin\.com$/i,
   /behance\.net$/i,
   /dribbble\.com$/i,
@@ -132,7 +133,7 @@ async function sleep(ms) {
 async function fetchHtml(url) {
   const response = await fetch(url, {
     headers: {
-      'user-agent': 'designer-portfolios-discovery/1.0 (+https://github.com/Jorgut/designer-portfolios)',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36 designer-portfolios-discovery/1.0',
       accept: 'text/html,application/xhtml+xml',
     },
     redirect: 'follow',
@@ -142,7 +143,11 @@ async function fetchHtml(url) {
     throw new Error(`Request failed with status ${response.status}`);
   }
 
-  return response.text();
+  const html = await response.text();
+  if (/Vercel Security Checkpoint/i.test(html) || /sgcaptcha/i.test(html)) {
+    throw new Error('blocked by anti-bot security checkpoint');
+  }
+  return html;
 }
 
 async function loadExistingPortfolios() {
@@ -172,7 +177,10 @@ async function discoverSourceCandidates(config, maxDetailPages = 6) {
 
   try {
     const listingHtml = await fetchHtml(config.listingUrl);
-    const detailUrls = unique(extractMatches(listingHtml, config.detailPattern)).slice(0, maxDetailPages);
+    const detailUrls = unique(extractMatches(listingHtml, config.detailPattern))
+      .map((url) => toAbsoluteUrl(url, config.listingUrl))
+      .filter(Boolean)
+      .slice(0, maxDetailPages);
     const portfolioUrls = [];
 
     for (const detailUrl of detailUrls) {

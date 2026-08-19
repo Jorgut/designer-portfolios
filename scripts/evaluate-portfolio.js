@@ -129,7 +129,7 @@ function normalizeUrl(input) {
 async function fetchPage(url, fetchImpl = globalThis.fetch) {
   const response = await fetchImpl(url, {
     headers: {
-      'user-agent': 'designer-portfolios-discovery/1.0 (+https://github.com/Jorgut/designer-portfolios)',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120 Safari/537.36 designer-portfolios-discovery/1.0',
       accept: 'text/html,application/xhtml+xml',
     },
     redirect: 'follow',
@@ -139,7 +139,11 @@ async function fetchPage(url, fetchImpl = globalThis.fetch) {
     throw new Error(`Request failed with status ${response.status}`);
   }
 
-  return response.text();
+  const html = await response.text();
+  if (/Vercel Security Checkpoint/i.test(html) || /sgcaptcha/i.test(html)) {
+    throw new Error('blocked by anti-bot security checkpoint');
+  }
+  return html;
 }
 
 function guessDiscipline(text) {
