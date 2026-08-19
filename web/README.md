@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Refcases Web
 
-## Getting Started
+Next.js frontend for Refcases, a curated designer portfolio case library.
 
-First, run the development server:
+## Scripts
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run lint
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content Source
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Portfolio entries are loaded from `src/data/portfolios.json`.
+EIDOS candidate references are loaded from `src/data/eidos-candidates.json`.
+Developer portfolio references are loaded from `src/data/developer-portfolios-candidates.json`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The homepage presents each portfolio through:
 
-## Learn More
+- discipline
+- location
+- tags
+- live screenshot
+- study focus
 
-To learn more about Next.js, take a look at the following resources:
+The EIDOS section is a triage queue. It keeps factual fields only, such as title, URL, source, and tags, and should not be treated as an accepted Refcases entry until it has original analysis.
+The developer-portfolios section is the same idea for Emma Bostian's portfolio index.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Positioning
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Refcases is narrower than a general inspiration database. It is for studying designer portfolio websites through visual language, interaction, and information structure.

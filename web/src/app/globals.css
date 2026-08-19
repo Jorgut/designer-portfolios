@@ -21,9 +21,9 @@ body {
   inset: 0;
   z-index: 0;
   background:
-    radial-gradient(ellipse at 20% 50%, rgba(120, 50, 250, 0.12) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(236, 72, 153, 0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 40% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
+    radial-gradient(ellipse at 18% 42%, rgba(56, 189, 248, 0.12) 0%, transparent 48%),
+    radial-gradient(ellipse at 82% 18%, rgba(20, 184, 166, 0.1) 0%, transparent 46%),
+    radial-gradient(ellipse at 45% 84%, rgba(245, 158, 11, 0.08) 0%, transparent 48%);
   animation: meshShift 25s ease-in-out infinite alternate;
 }
 
@@ -86,7 +86,7 @@ body {
 .orb-1 {
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(139,92,246,0.3), transparent 70%);
+  background: radial-gradient(circle, rgba(56,189,248,0.22), transparent 70%);
   top: -10%;
   left: -5%;
   animation: orbFloat1 20s ease-in-out infinite;
@@ -95,7 +95,7 @@ body {
 .orb-2 {
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(236,72,153,0.25), transparent 70%);
+  background: radial-gradient(circle, rgba(20,184,166,0.2), transparent 70%);
   top: 50%;
   right: -10%;
   animation: orbFloat2 25s ease-in-out infinite;
@@ -104,7 +104,7 @@ body {
 .orb-3 {
   width: 350px;
   height: 350px;
-  background: radial-gradient(circle, rgba(59,130,246,0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(245,158,11,0.16), transparent 70%);
   bottom: -5%;
   left: 30%;
   animation: orbFloat3 22s ease-in-out infinite;
@@ -191,14 +191,14 @@ body {
 }
 
 .glass-pill.active {
-  background: rgba(139, 92, 246, 0.15);
-  border-color: rgba(139, 92, 246, 0.4);
-  color: #c4b5fd;
-  box-shadow: 0 0 30px rgba(139, 92, 246, 0.2), inset 0 1px 0 rgba(255,255,255,0.1);
+  background: rgba(56, 189, 248, 0.14);
+  border-color: rgba(56, 189, 248, 0.38);
+  color: #bae6fd;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.16), inset 0 1px 0 rgba(255,255,255,0.1);
 }
 
 .glow-text {
-  background: linear-gradient(135deg, #a78bfa 0%, #ec4899 50%, #f97316 100%);
+  background: linear-gradient(135deg, #e5e7eb 0%, #38bdf8 42%, #facc15 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -289,9 +289,9 @@ body {
 }
 
 .letter-btn.active {
-  color: #a78bfa;
-  background: rgba(139, 92, 246, 0.15);
-  box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+  color: #7dd3fc;
+  background: rgba(56, 189, 248, 0.14);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.14);
 }
 
 .section-divider {
@@ -306,7 +306,7 @@ body {
 
 .logo-mark:hover {
   transform: rotate(-5deg) scale(1.05);
-  box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.35);
 }
 
 .github-link {
