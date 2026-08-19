@@ -1,0 +1,3240 @@
+[
+  {
+    "title": "设计工作室 igochi studio",
+    "url": "https://www.igochi.studio/",
+    "host": "igochi.studio",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "艺术",
+      "作品"
+    ],
+    "capturedAt": "2026-08-19T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Shading Motion",
+    "url": "https://blog.maximeheckel.com/posts/shading-motion/",
+    "host": "blog.maximeheckel.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "媒体",
+      "编程",
+      "案例"
+    ],
+    "capturedAt": "2026-08-19T01:48:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "CO'WATCH!",
+    "url": "https://focus.itshassco.com/wt",
+    "host": "focus.itshassco.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "生活"
+    ],
+    "capturedAt": "2026-08-19T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Mannay 的个人网站",
+    "url": "https://www.mannay.art/en",
+    "host": "mannay.art",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-18T14:39:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Issey Miyake 杂志",
+    "url": "https://abduzeedo.com/issey-miyake-magazine-gunay-hasanova-specimen",
+    "host": "abduzeedo.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "排版",
+      "作品"
+    ],
+    "capturedAt": "2026-08-18T01:57:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Annual Report Archive",
+    "url": "https://annualreport.gallery/",
+    "host": "annualreport.gallery",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "排版",
+      "合集",
+      "作品"
+    ],
+    "capturedAt": "2026-08-18T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Money in Check",
+    "url": "https://moneyincheck.org/",
+    "host": "moneyincheck.org",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-17T15:20:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Ramp 的一个趣味周边商店",
+    "url": "https://ramp.com/lovefinance",
+    "host": "ramp.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-17T15:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Bosh & Gray 视觉品牌",
+    "url": "https://abduzeedo.com/bosh-gray-visual-branding-and-identity-system",
+    "host": "abduzeedo.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "字体",
+      "排版",
+      "作品"
+    ],
+    "capturedAt": "2026-08-17T13:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "STARBOY 数字宠物的眼睛图鉴",
+    "url": "https://creature.company/eyes?swatch=circle-og",
+    "host": "creature.company",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "产品",
+      "交互",
+      "动效"
+    ],
+    "capturedAt": "2026-08-16T16:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Wired Elements",
+    "url": "https://wiredjs.com/showcase",
+    "host": "wiredjs.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "组件"
+    ],
+    "capturedAt": "2026-08-15T04:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Cuelume 交互音效库",
+    "url": "https://cuelume.dev/#start",
+    "host": "cuelume.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "音频",
+      "组件",
+      "合集"
+    ],
+    "capturedAt": "2026-08-14T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Ollama 首页重设计",
+    "url": "https://www.novra.design/ollama",
+    "host": "novra.design",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "动效",
+      "作品"
+    ],
+    "capturedAt": "2026-08-14T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Rocket Monster",
+    "url": "https://s3.brnbw.com/rocket-monster-nitro-kit/index.html",
+    "host": "s3.brnbw.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "游戏"
+    ],
+    "capturedAt": "2026-08-14T03:20:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "3D VOXEL ICONS",
+    "url": "https://re-presentation.jp/tool/3d-voxel-icon.html",
+    "host": "re-presentation.jp",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "图标",
+      "合集"
+    ],
+    "capturedAt": "2026-08-14T03:20:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Jesper Landberg",
+    "url": "https://jesperlandberg.com/",
+    "host": "jesperlandberg.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-14T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "The Internet Designs",
+    "url": "https://www.theinternetdesigns.com/",
+    "host": "theinternetdesigns.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-08-14T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Words of Type",
+    "url": "https://wiki.wordsoftype.com/",
+    "host": "wiki.wordsoftype.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "字体",
+      "排版",
+      "教程"
+    ],
+    "capturedAt": "2026-08-14T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "小米澎湃OS 4",
+    "url": "https://hyperos.mi.com/",
+    "host": "hyperos.mi.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "界面"
+    ],
+    "capturedAt": "2026-08-14T01:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "用 Forge 搭的交互式 Demo",
+    "url": "https://skate.ui8.dev/",
+    "host": "skate.ui8.dev",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "游戏"
+    ],
+    "capturedAt": "2026-08-13T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Softle",
+    "url": "https://softle.app/",
+    "host": "softle.app",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "字体",
+      "动效"
+    ],
+    "capturedAt": "2026-08-13T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Pedro Marques",
+    "url": "https://pedromarques.me/",
+    "host": "pedromarques.me",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-13T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Whorl",
+    "url": "https://whorl.app/",
+    "host": "whorl.app",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "排版",
+      "3D"
+    ],
+    "capturedAt": "2026-08-13T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "为什么对设计师来说，1 万次实验比 1 万小时更有效",
+    "url": "https://uxdesign.cc/why-10-000-experiments-work-better-than-10-000-hours-for-designers-1a07aa35df7f",
+    "host": "uxdesign.cc",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "工作"
+    ],
+    "capturedAt": "2026-08-12T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "有趣的交互式光标",
+    "url": "https://pokeyapp.com/",
+    "host": "pokeyapp.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "产品",
+      "App"
+    ],
+    "capturedAt": "2026-08-12T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "ui.camera",
+    "url": "https://ui.camera/",
+    "host": "ui.camera",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "图像"
+    ],
+    "capturedAt": "2026-08-12T01:47:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "“Canvas” 的产品的演示",
+    "url": "https://canvas.ui8.dev/",
+    "host": "canvas.ui8.dev",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互",
+      "艺术"
+    ],
+    "capturedAt": "2026-08-11T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Pryzm 背景生成器",
+    "url": "https://pryzm.design/?twclid=2cng4s4mc21et532v72gp9ouhf",
+    "host": "pryzm.design",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "色彩",
+      "模板"
+    ],
+    "capturedAt": "2026-08-11T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Héctor 的个人作品集网站",
+    "url": "https://santizo.com/",
+    "host": "santizo.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-11T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Claude 主题的 404 页面",
+    "url": "https://404claude.vercel.app/",
+    "host": "404claude.vercel.app",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "游戏"
+    ],
+    "capturedAt": "2026-08-11T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "The Everything Machine",
+    "url": "https://everythingmachine.io/phone/",
+    "host": "everythingmachine.io",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互",
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-08-11T01:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Gradient Studio",
+    "url": "https://gradientsaas.blogspot.com/?m=1",
+    "host": "gradientsaas.blogspot.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "色彩",
+      "模板"
+    ],
+    "capturedAt": "2026-08-10T14:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Peek Paper",
+    "url": "https://peekpaper.com/",
+    "host": "peekpaper.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-08-10T14:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Unlumen UI",
+    "url": "https://ui.unlumen.com/",
+    "host": "ui.unlumen.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "前端",
+      "组件"
+    ],
+    "capturedAt": "2026-08-10T13:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Rare UI 组件库",
+    "url": "https://www.rareui.com/components",
+    "host": "rareui.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "前端",
+      "组件"
+    ],
+    "capturedAt": "2026-08-10T12:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Generative Loaders",
+    "url": "https://generativeloaders.com/",
+    "host": "generativeloaders.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "前端",
+      "组件"
+    ],
+    "capturedAt": "2026-08-10T01:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "采集工具 Clipo",
+    "url": "https://clipo.one/",
+    "host": "clipo.one",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "动效"
+    ],
+    "capturedAt": "2026-08-07T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Quarkdown",
+    "url": "https://quarkdown.com/",
+    "host": "quarkdown.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "排版",
+      "编程"
+    ],
+    "capturedAt": "2026-08-07T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Fluid Functionalism",
+    "url": "https://www.fluidfunctionalism.com/",
+    "host": "fluidfunctionalism.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "前端",
+      "组件"
+    ],
+    "capturedAt": "2026-08-07T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "NYC AI Atlas(纽约AI地图)",
+    "url": "https://www.nycaiatlas.com/",
+    "host": "nycaiatlas.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-08-06T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "interior.dev",
+    "url": "https://www.interior.dev/",
+    "host": "interior.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "交互",
+      "组件"
+    ],
+    "capturedAt": "2026-08-06T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Interior",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "葡萄酒公司旗下的网站 I Buongiorno",
+    "url": "https://www.ibuongiorno.com/",
+    "host": "ibuongiorno.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-06T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "The weight of paper",
+    "url": "https://marijanapav.com/stamps",
+    "host": "marijanapav.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-08-06T01:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "墨 Ink",
+    "url": "https://ink-inky.vercel.app/",
+    "host": "ink-inky.vercel.app",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "艺术"
+    ],
+    "capturedAt": "2026-08-05T02:09:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "3D CSS 指南",
+    "url": "https://www.carmenansio.com/articles/3d-css-guide/",
+    "host": "carmenansio.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "前端",
+      "教程"
+    ],
+    "capturedAt": "2026-08-05T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "宜家 BRIMNES 床架的组装指南页面",
+    "url": "https://bob-the-builder.leakedleek.xyz/viewer?model=brimnes",
+    "host": "bob-the-builder.leakedleek.xyz",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互",
+      "作品"
+    ],
+    "capturedAt": "2026-08-05T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Web Desktops 在网页里重现操作系统桌面",
+    "url": "https://simone.computer/#/webdesktops?ref=sidebar",
+    "host": "simone.computer",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "界面",
+      "合集",
+      "作品"
+    ],
+    "capturedAt": "2026-08-04T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "3D 帆船模拟器 VibeSail",
+    "url": "https://vibesail.com/",
+    "host": "vibesail.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "游戏"
+    ],
+    "capturedAt": "2026-08-04T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "The plateau of sad gray icons",
+    "url": "https://yeseniaperezcruz.substack.com/p/the-plateau-of-sad-gray-icons",
+    "host": "yeseniaperezcruz.substack.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "AI",
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-08-03T04:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "个人作品集网站模板",
+    "url": "https://github.com/fayazara/portfolio-site-template",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "模板"
+    ],
+    "capturedAt": "2026-08-01T12:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "RamenHaus",
+    "url": "https://ramen.haus/",
+    "host": "ramen.haus",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-08-01T12:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "让 Auto Layout 更贴近 CSS Flexbox",
+    "url": "https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind",
+    "host": "help.figma.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "产品",
+      "前端"
+    ],
+    "capturedAt": "2026-08-01T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Research reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Vessa",
+    "url": "https://vessa.design/",
+    "host": "vessa.design",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "品牌",
+      "模板"
+    ],
+    "capturedAt": "2026-08-01T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "未来欧元纸币的全部设计提案",
+    "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/all-design-proposals.en.html",
+    "host": "ecb.europa.eu",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "排版",
+      "生活",
+      "文化"
+    ],
+    "capturedAt": "2026-07-30T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Beautiful UI",
+    "url": "https://beautiful-ui-five.vercel.app/",
+    "host": "beautiful-ui-five.vercel.app",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "组件",
+      "合集"
+    ],
+    "capturedAt": "2026-07-30T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Edoardo Lunardi 的个人网站",
+    "url": "https://www.edoardolunardi.dev/",
+    "host": "edoardolunardi.dev",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-07-29T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "The Content Architecture",
+    "url": "https://www.contentarchitecture.dev/",
+    "host": "contentarchitecture.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "编程",
+      "模板"
+    ],
+    "capturedAt": "2026-07-29T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Architecture",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Gallereee",
+    "url": "https://www.gallereee.com/",
+    "host": "gallereee.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "合集",
+      "作品"
+    ],
+    "capturedAt": "2026-07-28T10:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "movin.design",
+    "url": "https://movin.design/",
+    "host": "movin.design",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "动效",
+      "合集"
+    ],
+    "capturedAt": "2026-07-28T08:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Holographik 7 月的字体灵感专栏",
+    "url": "https://medium.com/holographik/typography-inspiration-july-2026-65f3c7542b75",
+    "host": "medium.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "字体",
+      "合集"
+    ],
+    "capturedAt": "2026-07-28T07:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Bakai Tolondu uulu 的个人网站",
+    "url": "https://www.bakai.me/lab",
+    "host": "bakai.me",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-07-28T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Fruit Morphology",
+    "url": "https://www.instagram.com/reel/DYSR3Q_oWuy/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+    "host": "instagram.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "排版",
+      "动效"
+    ],
+    "capturedAt": "2026-07-28T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "株式会社マルキョウ",
+    "url": "https://www.marukyo-web.co.jp/newgraduates2024/",
+    "host": "marukyo-web.co.jp",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "插画",
+      "动效"
+    ],
+    "capturedAt": "2026-07-28T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Adam Fuhrer 的作品",
+    "url": "https://adamfuhrer.com/",
+    "host": "adamfuhrer.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "艺术",
+      "作品"
+    ],
+    "capturedAt": "2026-07-28T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "heyclicky",
+    "url": "https://www.heyclicky.com/",
+    "host": "heyclicky.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "产品",
+      "交互",
+      "智能体"
+    ],
+    "capturedAt": "2026-07-27T10:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Clucky",
+    "url": "https://tryclucky.com/",
+    "host": "tryclucky.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "产品",
+      "界面"
+    ],
+    "capturedAt": "2026-07-27T09:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Which AI",
+    "url": "https://guess-the-designer.replit.app/play",
+    "host": "guess-the-designer.replit.app",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "AI"
+    ],
+    "capturedAt": "2026-07-27T03:20:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "MotionScore",
+    "url": "https://score.motion.dev/",
+    "host": "score.motion.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "动效"
+    ],
+    "capturedAt": "2026-07-25T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "noclip.website",
+    "url": "https://noclip.website/#pkmnpl/0;ShareData=Ag4@%7D=F68$XaNx,X4Ls@Y=",
+    "host": "noclip.website",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "3D",
+      "游戏",
+      "合集"
+    ],
+    "capturedAt": "2026-07-23T06:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Echo Wang",
+    "url": "https://echoecho.space/",
+    "host": "echoecho.space",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "艺术",
+      "作品"
+    ],
+    "capturedAt": "2026-07-22T07:50:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Cobloc 建筑设计事务所",
+    "url": "https://www.cobloc.archi/",
+    "host": "cobloc.archi",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-07-22T07:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Architecture",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Designing with web standards: The playbook for this AI moment",
+    "url": "https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d",
+    "host": "uxdesign.cc",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "网页",
+      "AI",
+      "教程"
+    ],
+    "capturedAt": "2026-07-21T06:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "img2threejs",
+    "url": "https://hoainho.github.io/img2threejs-showcase/",
+    "host": "hoainho.github.io",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "3D",
+      "编程"
+    ],
+    "capturedAt": "2026-07-20T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "jakubkrehel skills",
+    "url": "https://github.com/jakubkrehel/skills",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "编程",
+      "交互"
+    ],
+    "capturedAt": "2026-07-20T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Anyway 作品集分析",
+    "url": "https://anyway.fm/portfolio/",
+    "host": "anyway.fm",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "艺术",
+      "AI",
+      "Skill"
+    ],
+    "capturedAt": "2026-07-17T03:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "NameThatUI",
+    "url": "https://namethatui.com/",
+    "host": "namethatui.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "界面",
+      "智能体",
+      "合集"
+    ],
+    "capturedAt": "2026-07-17T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "PENA Design",
+    "url": "https://www.kenjpena.com/",
+    "host": "kenjpena.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "艺术",
+      "界面",
+      "案例"
+    ],
+    "capturedAt": "2026-07-16T07:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "iOS 27 and iPadOS 27 UI Kit",
+    "url": "https://developer.apple.com/design/resources/",
+    "host": "developer.apple.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "图像",
+      "界面",
+      "模板"
+    ],
+    "capturedAt": "2026-07-13T13:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "One Wish Willow",
+    "url": "https://www.onewishwillow.com/",
+    "host": "onewishwillow.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "游戏",
+      "案例"
+    ],
+    "capturedAt": "2026-07-13T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "杀死 AI slop",
+    "url": "https://killaislop.com/",
+    "host": "killaislop.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "AI",
+      "界面",
+      "Skill"
+    ],
+    "capturedAt": "2026-07-13T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "InkField Gallery",
+    "url": "https://ileivoivm.github.io/inkField/gallery/index.html",
+    "host": "ileivoivm.github.io",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "艺术",
+      "作品"
+    ],
+    "capturedAt": "2026-07-11T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Research reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Design Engineering",
+    "url": "https://marcelochaman.ca/s/design-engineering",
+    "host": "marcelochaman.ca",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "设计系统"
+    ],
+    "capturedAt": "2026-07-10T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Research reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Pixel2Motion",
+    "url": "https://nolangz.github.io/pixel2motion/",
+    "host": "nolangz.github.io",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "动效"
+    ],
+    "capturedAt": "2026-07-09T08:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Zero",
+    "url": "https://why.zero.university/",
+    "host": "why.zero.university",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "艺术",
+      "案例"
+    ],
+    "capturedAt": "2026-07-09T07:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "渐变头像",
+    "url": "https://avatars.outpacestudios.com/",
+    "host": "avatars.outpacestudios.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "图像",
+      "前端",
+      "组件"
+    ],
+    "capturedAt": "2026-07-09T03:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "GPT Live",
+    "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-live/",
+    "host": "openai.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "交互",
+      "AI"
+    ],
+    "capturedAt": "2026-07-09T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "东京电视台 2027 届应届毕业生招聘官网",
+    "url": "https://www.toei.co.jp/recruit/fresh/",
+    "host": "toei.co.jp",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "排版",
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-07-08T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Mosby’s Files",
+    "url": "https://www.mosbyfiles.com/",
+    "host": "mosbyfiles.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "排版",
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-07-08T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Valessa by Riotters",
+    "url": "https://valessa.riotters.com/",
+    "host": "valessa.riotters.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "图像",
+      "3D"
+    ],
+    "capturedAt": "2026-07-08T02:29:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "clipart.studio",
+    "url": "https://clipart.studio/",
+    "host": "clipart.studio",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "图像"
+    ],
+    "capturedAt": "2026-07-08T01:42:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Max Bo 个站",
+    "url": "https://maxbo.me/?l=%F0%9F%8C%97&m=....welcome...",
+    "host": "maxbo.me",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "前端",
+      "案例"
+    ],
+    "capturedAt": "2026-07-07T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Best Website Templates⁠",
+    "url": "https://bestwebsitetemplate.com/",
+    "host": "bestwebsitetemplate.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "模板"
+    ],
+    "capturedAt": "2026-07-07T01:39:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "FeralUI",
+    "url": "https://feralui.dev/#/captcha",
+    "host": "feralui.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "交互",
+      "动效",
+      "组件"
+    ],
+    "capturedAt": "2026-07-06T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Michael Alexander 个站",
+    "url": "https://www.mek.gallery/about",
+    "host": "mek.gallery",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "艺术",
+      "字体",
+      "作品"
+    ],
+    "capturedAt": "2026-07-05T05:32:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Inspotype",
+    "url": "https://www.inspotype.com/",
+    "host": "inspotype.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "品牌",
+      "界面"
+    ],
+    "capturedAt": "2026-07-03T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "On the semantic web",
+    "url": "https://karlkoch.me/writing/on-the-semantic-web",
+    "host": "karlkoch.me",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "网页",
+      "前端"
+    ],
+    "capturedAt": "2026-07-03T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Norma",
+    "url": "https://nor.ma/",
+    "host": "nor.ma",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互"
+    ],
+    "capturedAt": "2026-07-02T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Dotto",
+    "url": "https://www.dotto.studio/",
+    "host": "dotto.studio",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "品牌",
+      "艺术"
+    ],
+    "capturedAt": "2026-07-02T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "new interfaces",
+    "url": "https://www.interfaces.new/",
+    "host": "interfaces.new",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "图像",
+      "合集"
+    ],
+    "capturedAt": "2026-07-02T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "3D Extrude Stretch",
+    "url": "https://www.figma.com/design/Vnydwpby7r4CiOVQMdJ1Q5/3D-Extrude-Stretch?node-id=0-1&p=f&t=4EzC4wYpDjCq71SK-0",
+    "host": "figma.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "3D",
+      "案例"
+    ],
+    "capturedAt": "2026-07-02T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Blocks",
+    "url": "https://blocks.lander.studio/?category=website",
+    "host": "blocks.lander.studio",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "色彩"
+    ],
+    "capturedAt": "2026-07-01T02:20:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "设计人类与AI交互的39条原则",
+    "url": "https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe",
+    "host": "uxdesign.cc",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "智能体",
+      "AI",
+      "教程"
+    ],
+    "capturedAt": "2026-07-01T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "苹果收购获奖应用“Play”",
+    "url": "https://www.macrumors.com/2026/06/29/apple-acquires-award-winning-app-play/",
+    "host": "macrumors.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "交互",
+      "界面"
+    ],
+    "capturedAt": "2026-06-30T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "REF Digital Agency",
+    "url": "https://ref.digital/",
+    "host": "ref.digital",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "图标",
+      "案例"
+    ],
+    "capturedAt": "2026-06-30T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Docky",
+    "url": "https://github.com/josejuanqm/docky",
+    "host": "github.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "编程",
+      "交互"
+    ],
+    "capturedAt": "2026-06-30T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Jitter 更新",
+    "url": "https://jitter.video/changelog/",
+    "host": "jitter.video",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "动效",
+      "3D"
+    ],
+    "capturedAt": "2026-06-30T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Figma Motion 等一系列更新",
+    "url": "https://help.figma.com/hc/en-us/articles/39582753756695-What-s-new-from-Config-2026",
+    "host": "help.figma.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "动效",
+      "视频"
+    ],
+    "capturedAt": "2026-06-25T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "make.design",
+    "url": "https://make.design/",
+    "host": "make.design",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "媒体",
+      "界面"
+    ],
+    "capturedAt": "2026-06-24T14:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "AI体验的层次",
+    "url": "https://emilycampbell.co/writing/layers-of-ai-experience",
+    "host": "emilycampbell.co",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "交互",
+      "AI"
+    ],
+    "capturedAt": "2026-06-24T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "TSL Graph",
+    "url": "https://threejsresources.com/tool/tsl-graph",
+    "host": "threejsresources.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "3D",
+      "编程"
+    ],
+    "capturedAt": "2026-06-24T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Velvet UI",
+    "url": "https://velvet-ui-eight.vercel.app/",
+    "host": "velvet-ui-eight.vercel.app",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互",
+      "界面"
+    ],
+    "capturedAt": "2026-06-24T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "设计工程师原则",
+    "url": "https://vercel.com/design/engineer",
+    "host": "vercel.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "交互"
+    ],
+    "capturedAt": "2026-06-22T06:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Starlight",
+    "url": "https://starlight.astro.build/zh-cn/",
+    "host": "starlight.astro.build",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "前端",
+      "界面"
+    ],
+    "capturedAt": "2026-06-11T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "加载动画库",
+    "url": "https://flicker.laurie.fyi/gallery",
+    "host": "flicker.laurie.fyi",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "动效",
+      "前端",
+      "组件"
+    ],
+    "capturedAt": "2026-06-10T02:20:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "设计如何让设计师掌握AI",
+    "url": "https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945?gi=32834c7f87fb",
+    "host": "uxdesign.cc",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "AI",
+      "智能体"
+    ],
+    "capturedAt": "2026-06-10T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "HUDS+GUIS",
+    "url": "https://www.hudsandguis.com/",
+    "host": "hudsandguis.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "游戏",
+      "合集"
+    ],
+    "capturedAt": "2026-06-09T01:51:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "text-to-lottie",
+    "url": "https://github.com/diffusionstudio/lottie",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "编程",
+      "动效",
+      "Skill"
+    ],
+    "capturedAt": "2026-06-09T01:44:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Dead Simple Sites",
+    "url": "https://deadsimplesites.com/",
+    "host": "deadsimplesites.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页",
+      "艺术",
+      "合集"
+    ],
+    "capturedAt": "2026-06-09T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Navbar Gallery",
+    "url": "https://www.navbar.gallery/",
+    "host": "navbar.gallery",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "艺术",
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-06-09T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "像设计师一样解决问题",
+    "url": "https://medium.com/design-bootcamp/how-to-solve-problems-like-a-designer-db9cffbcf1e8",
+    "host": "medium.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "工作",
+      "教程"
+    ],
+    "capturedAt": "2026-06-06T08:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Aave 文章",
+    "url": "https://aave.com/design/building-glass-for-the-web",
+    "host": "aave.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "交互"
+    ],
+    "capturedAt": "2026-06-06T06:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Architecture",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Design Engineer Tools",
+    "url": "https://designengineer.tools/",
+    "host": "designengineer.tools",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "工具",
+      "界面",
+      "合集"
+    ],
+    "capturedAt": "2026-06-05T03:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "为眼睛设计——建筑和排版中的视觉校正",
+    "url": "https://www.nubero.ch/blog/015/",
+    "host": "nubero.ch",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "排版",
+      "文化"
+    ],
+    "capturedAt": "2026-06-03T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Architecture",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Visual Journal",
+    "url": "https://visualjournal.it/page:2",
+    "host": "visualjournal.it",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "品牌",
+      "合集"
+    ],
+    "capturedAt": "2026-06-03T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Research reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Blender 5.2中新加入的Thin Wall功能",
+    "url": "https://www.youtube.com/watch?v=eQLCfPwEcrI&time_continue=20",
+    "host": "youtube.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "3D",
+      "视频",
+      "教程"
+    ],
+    "capturedAt": "2026-06-02T02:22:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "sensory-ui",
+    "url": "https://www.sensory-ui.com/",
+    "host": "sensory-ui.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "界面",
+      "音乐"
+    ],
+    "capturedAt": "2026-06-01T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Deck.gallery",
+    "url": "https://deck.gallery/",
+    "host": "deck.gallery",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "艺术",
+      "排版",
+      "合集"
+    ],
+    "capturedAt": "2026-05-31T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Grizz 个人网站",
+    "url": "https://grizz.fyi/",
+    "host": "grizz.fyi",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "动效",
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-05-30T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Obsidian Web Clipper",
+    "url": "https://obsidian.md/clipper",
+    "host": "obsidian.md",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "编程",
+      "网页"
+    ],
+    "capturedAt": "2026-05-28T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Framer 键盘",
+    "url": "https://www.framer.com/f1?dub_id=PNBLvV1YXfQMmACK",
+    "host": "framer.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "工具",
+      "交互"
+    ],
+    "capturedAt": "2026-05-27T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "CollectUI",
+    "url": "https://collectui.com/",
+    "host": "collectui.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "界面",
+      "艺术",
+      "合集"
+    ],
+    "capturedAt": "2026-05-27T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Sasha's Gym",
+    "url": "https://sgym.space/",
+    "host": "sgym.space",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互",
+      "游戏"
+    ],
+    "capturedAt": "2026-05-25T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Bartender Pro 更新",
+    "url": "https://www.macbartender.com/pro/",
+    "host": "macbartender.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "工具",
+      "交互"
+    ],
+    "capturedAt": "2026-05-23T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "glimm",
+    "url": "https://glimm.dev/",
+    "host": "glimm.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "动效",
+      "3D"
+    ],
+    "capturedAt": "2026-05-23T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Swissted",
+    "url": "https://www.swissted.com/",
+    "host": "swissted.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "艺术",
+      "排版",
+      "作品"
+    ],
+    "capturedAt": "2026-05-22T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Soon的应用商店",
+    "url": "https://soon.work/",
+    "host": "soon.work",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "交互",
+      "产品",
+      "案例"
+    ],
+    "capturedAt": "2026-05-22T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Marvis马维斯",
+    "url": "https://marvis.qq.com/",
+    "host": "marvis.qq.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "AI",
+      "交互"
+    ],
+    "capturedAt": "2026-05-21T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "TRELLIS.2",
+    "url": "https://github.com/microsoft/TRELLIS.2",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "3D",
+      "编程",
+      "模型"
+    ],
+    "capturedAt": "2026-05-20T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "typo/graphic posters",
+    "url": "https://www.typographicposters.com/",
+    "host": "typographicposters.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "艺术",
+      "排版",
+      "合集"
+    ],
+    "capturedAt": "2026-05-20T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "2026年设计师最爱的15款字体",
+    "url": "https://www.creativeboom.com/resources/15-typefaces-designers-cant-stop-using-or-admiring-in-2026/",
+    "host": "creativeboom.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "字体",
+      "合集"
+    ],
+    "capturedAt": "2026-05-20T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Apple Design Awards",
+    "url": "https://developer.apple.com/design/awards/",
+    "host": "developer.apple.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "游戏",
+      "交互",
+      "合集"
+    ],
+    "capturedAt": "2026-05-19T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Avio Sans Project",
+    "url": "https://aviosans.lerbb.com/",
+    "host": "aviosans.lerbb.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "字体",
+      "排版"
+    ],
+    "capturedAt": "2026-05-18T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "web-kits/audio",
+    "url": "https://audio.raphaelsalaja.com/",
+    "host": "audio.raphaelsalaja.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "音频",
+      "网页"
+    ],
+    "capturedAt": "2026-05-17T01:58:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Gautam Joshi",
+    "url": "https://gautams.framer.website/#ready",
+    "host": "gautams.framer.website",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "动效",
+      "网页",
+      "作品"
+    ],
+    "capturedAt": "2026-05-16T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Blogs Are Back",
+    "url": "https://www.blogsareback.com/extension",
+    "host": "blogsareback.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "交互",
+      "工具"
+    ],
+    "capturedAt": "2026-05-15T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Aesthetic Inspiration",
+    "url": "https://aesthetic-inspo.lovable.app/",
+    "host": "aesthetic-inspo.lovable.app",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "艺术",
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-05-15T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Interfaces › Design Engineering Magazine",
+    "url": "https://interfaces.dev/",
+    "host": "interfaces.dev",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "网页",
+      "编程",
+      "教程"
+    ],
+    "capturedAt": "2026-05-14T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Cloud Logo Tool",
+    "url": "https://clouds.kineticstudio.com/",
+    "host": "clouds.kineticstudio.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "品牌"
+    ],
+    "capturedAt": "2026-05-14T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "glow",
+    "url": "https://github.com/charmbracelet/glow",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "编程",
+      "界面"
+    ],
+    "capturedAt": "2026-05-11T13:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Remediate",
+    "url": "https://www.remediate.ski/",
+    "host": "remediate.ski",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "媒体",
+      "交互"
+    ],
+    "capturedAt": "2026-05-11T07:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Velvetyne",
+    "url": "https://velvetyne.alwaysdata.net/",
+    "host": "velvetyne.alwaysdata.net",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "排版",
+      "字体",
+      "合集"
+    ],
+    "capturedAt": "2026-05-11T05:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "UXSnaps",
+    "url": "https://www.uxsnaps.com/",
+    "host": "uxsnaps.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "界面",
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-05-11T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "人物轮播图交互",
+    "url": "https://51.as.wild.tools/",
+    "host": "51.as.wild.tools",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "动效",
+      "案例"
+    ],
+    "capturedAt": "2026-04-30T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "UI Skills",
+    "url": "https://www.ui-skills.com/",
+    "host": "ui-skills.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "界面",
+      "前端",
+      "合集"
+    ],
+    "capturedAt": "2026-04-29T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Curve Text 将你的文字弯曲成形状",
+    "url": "https://curvetext.app/",
+    "host": "curvetext.app",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "排版",
+      "字体"
+    ],
+    "capturedAt": "2026-04-29T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "CTA 画廊",
+    "url": "https://www.cta.gallery/",
+    "host": "cta.gallery",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "艺术",
+      "界面",
+      "合集"
+    ],
+    "capturedAt": "2026-04-28T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Flux Watch Face",
+    "url": "https://tdc.org/winner/flux-watch-face/",
+    "host": "tdc.org",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "动效",
+      "排版",
+      "案例"
+    ],
+    "capturedAt": "2026-04-26T01:39:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Transitions.dev",
+    "url": "https://transitions.dev/",
+    "host": "transitions.dev",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "动效",
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-04-24T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Wiggle",
+    "url": "https://wiggle.three.tools/",
+    "host": "wiggle.three.tools",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "3D",
+      "动效"
+    ],
+    "capturedAt": "2026-04-23T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "skill-extract-car-images",
+    "url": "https://gist.github.com/unixzii/bd34798f73d14204410cd38c74575107",
+    "host": "gist.github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "图像",
+      "前端",
+      "Skill"
+    ],
+    "capturedAt": "2026-04-22T14:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "image2 示例",
+    "url": "https://image2xcodex.vercel.app/",
+    "host": "image2xcodex.vercel.app",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "图像",
+      "网页",
+      "案例"
+    ],
+    "capturedAt": "2026-04-22T13:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "AI 时代的用户体验设计",
+    "url": "https://jakobnielsenphd.substack.com/p/intent-ux",
+    "host": "jakobnielsenphd.substack.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "交互",
+      "AI"
+    ],
+    "capturedAt": "2026-04-22T12:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "PICA",
+    "url": "https://pica.joshpuckett.me/",
+    "host": "pica.joshpuckett.me",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "字体",
+      "排版"
+    ],
+    "capturedAt": "2026-04-21T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "three.js 做的 有意思的demo",
+    "url": "https://github.com/felixturner/html-in-canvas-cracks",
+    "host": "github.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "编程",
+      "3D",
+      "作品"
+    ],
+    "capturedAt": "2026-04-20T13:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "motion-design-skill",
+    "url": "https://github.com/LottieFiles/motion-design-skill",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "动效",
+      "Skill"
+    ],
+    "capturedAt": "2026-04-18T08:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "cavalry 免费了",
+    "url": "https://cavalry.studio/en/",
+    "host": "cavalry.studio",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "动效"
+    ],
+    "capturedAt": "2026-04-18T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Google 升级 Chrome 浏览器中的 AI 模式",
+    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+    "host": "blog.google",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "网页",
+      "AI"
+    ],
+    "capturedAt": "2026-04-16T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "shader-lab",
+    "url": "https://github.com/basementstudio/shader-lab",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "编程"
+    ],
+    "capturedAt": "2026-04-15T04:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "阿尔忒弥斯计划 的视觉",
+    "url": "https://www.flumpstudio.com/nasa-artemis",
+    "host": "flumpstudio.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "品牌",
+      "设计系统",
+      "案例"
+    ],
+    "capturedAt": "2026-04-13T13:58:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Mesh3D",
+    "url": "https://mesh3d.gallery/",
+    "host": "mesh3d.gallery",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "3D",
+      "合集"
+    ],
+    "capturedAt": "2026-04-13T13:42:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "设计出读者真正能读完的页面",
+    "url": "https://www.designer-daily.com/typography-for-long-form-reading-designing-pages-people-actually-finish-213373",
+    "host": "designer-daily.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "排版",
+      "字体",
+      "教程"
+    ],
+    "capturedAt": "2026-04-11T10:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Codex 用例画廊",
+    "url": "https://developers.openai.com/codex/use-cases",
+    "host": "developers.openai.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "AI",
+      "编程",
+      "案例"
+    ],
+    "capturedAt": "2026-04-11T08:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Research reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "netfolio",
+    "url": "https://www.netfolio.io/websites",
+    "host": "netfolio.io",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "AI",
+      "合集"
+    ],
+    "capturedAt": "2026-04-10T11:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "人类创造力的花园",
+    "url": "https://gallery.jessyin.world/",
+    "host": "gallery.jessyin.world",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "艺术",
+      "文化",
+      "合集"
+    ],
+    "capturedAt": "2026-04-09T09:50:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Research reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "buildwithtaste",
+    "url": "https://buildwithtaste.com/",
+    "host": "buildwithtaste.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "AI",
+      "界面"
+    ],
+    "capturedAt": "2026-04-09T09:47:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Shader Development Studio",
+    "url": "https://www.shader.se/",
+    "host": "shader.se",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "3D",
+      "艺术"
+    ],
+    "capturedAt": "2026-04-01T14:02:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "The Invisible Architecture of Thought",
+    "url": "https://markwebster.substack.com/p/the-invisible-architecture-of-thought",
+    "host": "markwebster.substack.com",
+    "sourceGroup": "精神财富",
+    "tags": [
+      "排版",
+      "字体"
+    ],
+    "capturedAt": "2026-03-28T12:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Architecture",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "before.click",
+    "url": "https://before.click/",
+    "host": "before.click",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "生活",
+      "合集"
+    ],
+    "capturedAt": "2026-03-27T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "primeui",
+    "url": "https://primeui.com/",
+    "host": "primeui.com",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "界面"
+    ],
+    "capturedAt": "2026-03-26T04:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Paper Snapshot",
+    "url": "https://paper.design/snapshot-extension",
+    "host": "paper.design",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "工具",
+      "交互"
+    ],
+    "capturedAt": "2026-03-26T00:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Browser Mockups",
+    "url": "https://www.figma.com/community/file/1413516575544121422",
+    "host": "figma.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "网页",
+      "媒体",
+      "模板"
+    ],
+    "capturedAt": "2026-03-25T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Omma",
+    "url": "https://omma.build/",
+    "host": "omma.build",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "图像",
+      "3D"
+    ],
+    "capturedAt": "2026-03-25T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "ASCII - Studio",
+    "url": "https://studio.neato.fun/ascii",
+    "host": "studio.neato.fun",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "图像",
+      "媒体"
+    ],
+    "capturedAt": "2026-03-24T04:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Dany",
+    "url": "https://dany.works/",
+    "host": "dany.works",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "网页",
+      "图标",
+      "作品"
+    ],
+    "capturedAt": "2026-03-24T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "ASCII Studio",
+    "url": "https://github.com/vansh-nagar/ASCII-Studio",
+    "host": "github.com",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "编程",
+      "视频"
+    ],
+    "capturedAt": "2026-03-23T06:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Robot Challenge Screen",
+    "url": "https://designreviewed.com/",
+    "host": "designreviewed.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "网页"
+    ],
+    "capturedAt": "2026-03-23T04:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Kree8",
+    "url": "https://kree8.studio/",
+    "host": "kree8.studio",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "品牌",
+      "艺术"
+    ],
+    "capturedAt": "2026-03-23T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Mobbin Awards",
+    "url": "https://mobbin.com/awards",
+    "host": "mobbin.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "界面",
+      "网页",
+      "合集"
+    ],
+    "capturedAt": "2026-03-23T02:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "UX-UI",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Srotimi: Product Design for Ambitious Tech Startups",
+    "url": "https://www.rotimi.design/",
+    "host": "rotimi.design",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "交互",
+      "品牌"
+    ],
+    "capturedAt": "2026-03-23T01:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "luzcasluz",
+    "url": "https://www.luzcas.com/",
+    "host": "luzcas.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "品牌",
+      "3D",
+      "作品"
+    ],
+    "capturedAt": "2026-03-22T11:33:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "ACE Studio",
+    "url": "https://acestudio.ai/zh/",
+    "host": "acestudio.ai",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "智能体",
+      "AI"
+    ],
+    "capturedAt": "2026-03-19T07:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Emil Kowalski skill",
+    "url": "https://emilkowal.ski/skill",
+    "host": "emilkowal.ski",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "AI",
+      "网页",
+      "Skill"
+    ],
+    "capturedAt": "2026-03-18T10:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Web/UI reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Typograph定制字体",
+    "url": "https://typograph.studio/en",
+    "host": "typograph.studio",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "字体"
+    ],
+    "capturedAt": "2026-03-17T03:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "Jake Rudolph 个人网站",
+    "url": "https://jakescube.com/front",
+    "host": "jakescube.com",
+    "sourceGroup": "瞬间灵感",
+    "tags": [
+      "产品",
+      "文化",
+      "作品"
+    ],
+    "capturedAt": "2026-03-17T01:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "TUIDesign",
+    "url": "https://tui.studio/",
+    "host": "tui.studio",
+    "sourceGroup": "其他玩玩",
+    "tags": [
+      "界面",
+      "工具"
+    ],
+    "capturedAt": "2026-03-14T08:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Portfolio candidate",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "ChatGPT 更新互动式学习功能",
+    "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt/",
+    "host": "openai.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "交互",
+      "AI"
+    ],
+    "capturedAt": "2026-03-11T04:02:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "glaze",
+    "url": "https://www.glazeapp.com/",
+    "host": "glazeapp.com",
+    "sourceGroup": "动态资讯",
+    "tags": [
+      "产品",
+      "交互"
+    ],
+    "capturedAt": "2026-03-05T05:00:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Interaction reference",
+    "discipline": "Product",
+    "duplicateOfMain": null
+  },
+  {
+    "title": "alembic",
+    "url": "https://alembic.space/",
+    "host": "alembic.space",
+    "sourceGroup": "工具资源",
+    "tags": [
+      "排版",
+      "字体"
+    ],
+    "capturedAt": "2026-03-05T02:30:00.000Z",
+    "source": "EIDOS",
+    "sourceUrl": "https://eidosbox.work/",
+    "refcaseCategory": "Visual layout reference",
+    "discipline": "Design Engineering",
+    "duplicateOfMain": null
+  }
+]
