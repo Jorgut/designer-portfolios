@@ -2,8 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import portfolios from "@/data/portfolios.json";
-import eidosCandidates from "@/data/eidos-candidates.json";
-import developerPortfoliosCandidates from "@/data/developer-portfolios-candidates.json";
+import eidosReferences from "@/data/eidos-references.json";
+import developerPortfoliosReferences from "@/data/developer-portfolios-references.json";
 import {
   analyzeReferenceIntake,
   type DisciplineValue,
@@ -32,11 +32,11 @@ const translations = {
     disciplines: "个领域",
     featured: "精选",
     lenses: "观察维度",
-    eidosTitle: "EIDOS 候选收录",
-    eidosSubtitle: "已按 Refcases 的五个领域重新归类；这里只是候选池，进入主库前仍要人工拆解。",
+    eidosTitle: "EIDOS 全量来源库",
+    eidosSubtitle: "EIDOS 的公开条目已全量导入，并按 Refcases 的五个领域重新归类；进入主库前仍要人工拆解。",
     eidosSource: "来源",
-    developerTitle: "Developer Portfolios 候选收录",
-    developerSubtitle: "已统一映射到 Refcases 分类，并标出已被主库收录的重复项。",
+    developerTitle: "Developer Portfolios 全量来源库",
+    developerSubtitle: "GitHub developer-portfolios 的网站已全量导入，统一映射到 Refcases 分类，并标出已被主库收录的重复项。",
     developerSource: "来源",
     duplicateOfMain: "已在主库",
     duplicatesSummary: "重复检测",
@@ -59,11 +59,11 @@ const translations = {
     disciplines: "disciplines",
     featured: "featured",
     lenses: "lenses",
-    eidosTitle: "EIDOS Candidate Intake",
-    eidosSubtitle: "Reclassified into the five Refcases disciplines. These are still candidates until manually analyzed.",
+    eidosTitle: "EIDOS Full Source Library",
+    eidosSubtitle: "All public EIDOS entries are imported and reclassified into the five Refcases disciplines. They still need manual analysis before entering the main library.",
     eidosSource: "Source",
-    developerTitle: "Developer Portfolios Candidate Intake",
-    developerSubtitle: "Mapped into the Refcases taxonomy, with entries already accepted in the main library marked as duplicates.",
+    developerTitle: "Developer Portfolios Full Source Library",
+    developerSubtitle: "All developer-portfolios websites are imported, mapped into the Refcases taxonomy, and checked against the main library.",
     developerSource: "Source",
     duplicateOfMain: "Already in main library",
     duplicatesSummary: "Duplicate check",
@@ -174,8 +174,8 @@ export default function Home() {
     () =>
       analyzeReferenceIntake({
         portfolios,
-        eidosCandidates,
-        developerPortfoliosCandidates,
+        eidosCandidates: eidosReferences,
+        developerPortfoliosCandidates: developerPortfoliosReferences,
       }),
     []
   );
@@ -378,7 +378,7 @@ export default function Home() {
                 <p className="mt-2 max-w-2xl text-sm leading-6 text-zinc-400">{t.eidosSubtitle}</p>
               </div>
               <div className="text-sm text-zinc-500">
-                {filteredEidosCandidates.length} shown · {eidosCandidates.length} candidates
+                {filteredEidosCandidates.length} shown · {eidosReferences.length} total
               </div>
             </div>
             <IntakeSummary
@@ -390,9 +390,9 @@ export default function Home() {
             />
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {filteredEidosCandidates.map((candidate) => (
+              {filteredEidosCandidates.map((candidate, index) => (
                 <EidosCandidateCard
-                  key={`${candidate.url}-${candidate.title}`}
+                  key={`${candidate.url}-${candidate.title}-${index}`}
                   candidate={candidate}
                   sourceLabel={t.eidosSource}
                   duplicateLabel={t.duplicateOfMain}
@@ -409,7 +409,7 @@ export default function Home() {
                 <p className="mt-2 max-w-2xl text-sm leading-6 text-zinc-400">{t.developerSubtitle}</p>
               </div>
               <div className="text-sm text-zinc-500">
-                {filteredDeveloperCandidates.length} shown · {developerPortfoliosCandidates.length} candidates
+                {filteredDeveloperCandidates.length} shown · {developerPortfoliosReferences.length} total
               </div>
             </div>
             <IntakeSummary
@@ -421,9 +421,9 @@ export default function Home() {
             />
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {filteredDeveloperCandidates.map((candidate) => (
+              {filteredDeveloperCandidates.map((candidate, index) => (
                 <DeveloperPortfolioCandidateCard
-                  key={`${candidate.website}-${candidate.name}`}
+                  key={`${candidate.website}-${candidate.name}-${index}`}
                   candidate={candidate}
                   sourceLabel={t.developerSource}
                   duplicateLabel={t.duplicateOfMain}
@@ -515,7 +515,7 @@ function EidosCandidateCard({
       ) : null}
 
       <div className="mt-4 flex flex-wrap gap-2">
-        <span className="tag">{candidate.refcaseCategory}</span>
+        <span className="tag">{candidate.refcaseCategory || "Source reference"}</span>
         {candidate.tags.slice(0, 4).map((tag) => (
           <span key={tag} className="tag">
             {tag}

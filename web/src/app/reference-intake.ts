@@ -22,7 +22,7 @@ export type EidosCandidate = {
   tags: string[];
   source: string;
   sourceUrl: string;
-  refcaseCategory: string;
+  refcaseCategory?: string;
 };
 
 export type DeveloperPortfolioCandidate = {
@@ -33,7 +33,7 @@ export type DeveloperPortfolioCandidate = {
   note: string;
   source: string;
   sourceUrl: string;
-  refcaseCategory: string;
+  refcaseCategory?: string;
 };
 
 export type DuplicateMatch = {
