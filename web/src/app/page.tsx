@@ -23,7 +23,10 @@ const translations = {
     heroTitle2: "作品集案例库",
     subtitle: "只收高质量设计师个人网站，聚焦版式、交互、信息结构和视觉语言的拆解。",
     searchPlaceholder: "搜索设计师、标签、风格...",
-    portfolios: "portfolios",
+    records: "records",
+    curatedPortfolios: "主库",
+    sourceLibrary: "来源库",
+    totalIndex: "总索引",
     cases: "个案例",
     emptyState: "没有找到匹配的案例",
     clearFilter: "清除筛选",
@@ -50,7 +53,10 @@ const translations = {
     heroTitle2: "Portfolios",
     subtitle: "A curated library of designer portfolios with visual, interaction, and information-structure analysis.",
     searchPlaceholder: "Search designers, tags, styles...",
-    portfolios: "portfolios",
+    records: "records",
+    curatedPortfolios: "Curated",
+    sourceLibrary: "Source refs",
+    totalIndex: "Total index",
     cases: "portfolios",
     emptyState: "No matching portfolios found",
     clearFilter: "Clear filters",
@@ -151,6 +157,18 @@ export default function Home() {
 
   const t = translations[lang];
 
+  const intakeAnalysis = useMemo(
+    () =>
+      analyzeReferenceIntake({
+        portfolios,
+        eidosCandidates: eidosReferences,
+        developerPortfoliosCandidates: developerPortfoliosReferences,
+      }),
+    []
+  );
+  const sourceLibraryCount = eidosReferences.length + developerPortfoliosReferences.length;
+  const totalIndexCount = portfolios.length + sourceLibraryCount;
+
   const filteredPortfolios = useMemo(() => {
     return portfolios.filter((p) => {
       const matchesDiscipline = selectedDiscipline === "All" || p.discipline === selectedDiscipline;
@@ -162,23 +180,18 @@ export default function Home() {
   }, [selectedDiscipline, selectedLetter, searchQuery]);
 
   const disciplineCounts = useMemo(() => {
-    const counts: Record<string, number> = { All: portfolios.length };
+    const counts: Record<string, number> = { All: totalIndexCount };
     portfolios.forEach((p) => {
       counts[p.discipline] = (counts[p.discipline] || 0) + 1;
     });
+    for (const [discipline, count] of Object.entries(intakeAnalysis.eidos.countsByDiscipline)) {
+      counts[discipline] = (counts[discipline] || 0) + count;
+    }
+    for (const [discipline, count] of Object.entries(intakeAnalysis.developer.countsByDiscipline)) {
+      counts[discipline] = (counts[discipline] || 0) + count;
+    }
     return counts;
-  }, []);
-
-  const featuredCount = useMemo(() => portfolios.filter((p) => p.featured).length, []);
-  const intakeAnalysis = useMemo(
-    () =>
-      analyzeReferenceIntake({
-        portfolios,
-        eidosCandidates: eidosReferences,
-        developerPortfoliosCandidates: developerPortfoliosReferences,
-      }),
-    []
-  );
+  }, [intakeAnalysis, totalIndexCount]);
   const filteredEidosCandidates = useMemo(() => {
     return intakeAnalysis.eidos.items.filter((candidate) => {
       return selectedDiscipline === "All" || candidate.discipline === selectedDiscipline;
@@ -213,7 +226,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-4">
               <span className="text-xs text-zinc-500">
-                {portfolios.length} {t.portfolios}
+                {totalIndexCount.toLocaleString()} {t.records}
               </span>
               <a
                 href="https://github.com/Jorgut/designer-portfolios"
@@ -257,9 +270,9 @@ export default function Home() {
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <StatPill label={t.portfolios} value={portfolios.length.toString()} />
-                  <StatPill label={t.disciplines} value="5" />
-                  <StatPill label={t.featured} value={featuredCount.toString()} />
+                  <StatPill label={t.curatedPortfolios} value={portfolios.length.toLocaleString()} />
+                  <StatPill label={t.sourceLibrary} value={sourceLibraryCount.toLocaleString()} />
+                  <StatPill label={t.totalIndex} value={totalIndexCount.toLocaleString()} />
                 </div>
               </div>
 
@@ -436,7 +449,7 @@ export default function Home() {
         <footer className="mt-16 border-t border-white/[0.06] py-16">
           <div className="mx-auto max-w-7xl px-6 text-center">
             <p className="text-xs text-zinc-600">
-              {t.footer} · {portfolios.length} {t.casesCount} · 5 {t.disciplines}
+              {t.footer} · {totalIndexCount.toLocaleString()} {t.records} · {sourceLibraryCount.toLocaleString()} {t.sourceLibrary}
             </p>
           </div>
         </footer>
