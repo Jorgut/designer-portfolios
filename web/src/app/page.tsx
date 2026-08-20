@@ -189,8 +189,6 @@ export default function Home() {
       return selectedDiscipline === "All" || candidate.discipline === selectedDiscipline;
     });
   }, [intakeAnalysis, selectedDiscipline]);
-  const visibleEidosCandidates = useMemo(() => filteredEidosCandidates.slice(0, 36), [filteredEidosCandidates]);
-  const visibleDeveloperCandidates = useMemo(() => filteredDeveloperCandidates.slice(0, 36), [filteredDeveloperCandidates]);
 
   return (
     <>
@@ -380,7 +378,7 @@ export default function Home() {
                 <p className="mt-2 max-w-2xl text-sm leading-6 text-zinc-400">{t.eidosSubtitle}</p>
               </div>
               <div className="text-sm text-zinc-500">
-                {visibleEidosCandidates.length} / {filteredEidosCandidates.length} shown · {eidosCandidates.length} candidates
+                {filteredEidosCandidates.length} shown · {eidosCandidates.length} candidates
               </div>
             </div>
             <IntakeSummary
@@ -392,7 +390,7 @@ export default function Home() {
             />
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {visibleEidosCandidates.map((candidate) => (
+              {filteredEidosCandidates.map((candidate) => (
                 <EidosCandidateCard
                   key={`${candidate.url}-${candidate.title}`}
                   candidate={candidate}
@@ -411,7 +409,7 @@ export default function Home() {
                 <p className="mt-2 max-w-2xl text-sm leading-6 text-zinc-400">{t.developerSubtitle}</p>
               </div>
               <div className="text-sm text-zinc-500">
-                {visibleDeveloperCandidates.length} / {filteredDeveloperCandidates.length} shown · {developerPortfoliosCandidates.length} candidates
+                {filteredDeveloperCandidates.length} shown · {developerPortfoliosCandidates.length} candidates
               </div>
             </div>
             <IntakeSummary
@@ -423,7 +421,7 @@ export default function Home() {
             />
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {visibleDeveloperCandidates.map((candidate) => (
+              {filteredDeveloperCandidates.map((candidate) => (
                 <DeveloperPortfolioCandidateCard
                   key={`${candidate.website}-${candidate.name}`}
                   candidate={candidate}
