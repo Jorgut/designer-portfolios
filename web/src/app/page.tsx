@@ -197,11 +197,9 @@ export default function Home() {
       <div className="mesh-gradient" />
       <div className="noise-overlay" />
       <div className="stars-layer" style={{ transform: `translateY(${scrollY * 0.1}px)` }} />
-      <div className="orbs-container">
-        <div className="orb orb-1" />
-        <div className="orb orb-2" />
-        <div className="orb orb-3" />
-      </div>
+      <div className="particle-field" />
+      <div className="particle-drift" style={{ transform: `translateY(${scrollY * -0.04}px)` }} />
+      <div className="aura-grid" />
 
       <div className="relative z-10 min-h-screen">
         <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.06] bg-[#03030a]/72 backdrop-blur-2xl">

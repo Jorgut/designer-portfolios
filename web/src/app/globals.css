@@ -9,7 +9,9 @@ html {
 }
 
 body {
-  background: #03030a;
+  background:
+    radial-gradient(circle at 50% -20%, rgba(214, 255, 240, 0.08), transparent 34rem),
+    linear-gradient(145deg, #05070b 0%, #071015 44%, #030409 100%);
   color: #e4e4e7;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   min-height: 100vh;
@@ -21,16 +23,17 @@ body {
   inset: 0;
   z-index: 0;
   background:
-    radial-gradient(ellipse at 18% 42%, rgba(56, 189, 248, 0.12) 0%, transparent 48%),
-    radial-gradient(ellipse at 82% 18%, rgba(20, 184, 166, 0.1) 0%, transparent 46%),
-    radial-gradient(ellipse at 45% 84%, rgba(245, 158, 11, 0.08) 0%, transparent 48%);
-  animation: meshShift 25s ease-in-out infinite alternate;
+    linear-gradient(115deg, rgba(255,255,255,0.035), transparent 26%, rgba(20,184,166,0.06) 48%, transparent 70%),
+    radial-gradient(ellipse at 16% 28%, rgba(45, 212, 191, 0.16) 0%, transparent 42%),
+    radial-gradient(ellipse at 82% 18%, rgba(148, 163, 184, 0.12) 0%, transparent 44%),
+    radial-gradient(ellipse at 58% 86%, rgba(217, 119, 6, 0.09) 0%, transparent 48%);
+  animation: meshShift 28s ease-in-out infinite alternate;
 }
 
 @keyframes meshShift {
-  0% { opacity: 0.6; transform: scale(1) rotate(0deg); }
-  50% { opacity: 1; transform: scale(1.1) rotate(2deg); }
-  100% { opacity: 0.6; transform: scale(1) rotate(0deg); }
+  0% { opacity: 0.62; transform: scale(1) rotate(0deg); }
+  50% { opacity: 0.9; transform: scale(1.08) rotate(1.4deg); }
+  100% { opacity: 0.68; transform: scale(1.02) rotate(-0.6deg); }
 }
 
 .noise-overlay {
@@ -46,20 +49,20 @@ body {
   position: fixed;
   inset: 0;
   z-index: 0;
-  background-image: 
-    radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1px 1px at 30% 60%, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 50% 10%, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 70% 80%, rgba(255,255,255,0.2), transparent),
-    radial-gradient(1px 1px at 90% 40%, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1.5px 1.5px at 15% 75%, rgba(167,139,250,0.6), transparent),
-    radial-gradient(1.5px 1.5px at 85% 25%, rgba(236,72,153,0.5), transparent),
-    radial-gradient(1px 1px at 25% 45%, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 65% 55%, rgba(255,255,255,0.25), transparent),
-    radial-gradient(1px 1px at 45% 85%, rgba(255,255,255,0.35), transparent),
-    radial-gradient(1px 1px at 5% 95%, rgba(255,255,255,0.3), transparent),
-    radial-gradient(1px 1px at 95% 5%, rgba(255,255,255,0.4), transparent);
-  animation: twinkle 8s ease-in-out infinite alternate;
+  background-image:
+    radial-gradient(1px 1px at 10% 20%, rgba(236, 253, 245, 0.34), transparent),
+    radial-gradient(1px 1px at 30% 60%, rgba(125, 211, 252, 0.24), transparent),
+    radial-gradient(1px 1px at 50% 10%, rgba(255, 251, 235, 0.36), transparent),
+    radial-gradient(1px 1px at 70% 80%, rgba(148, 163, 184, 0.2), transparent),
+    radial-gradient(1px 1px at 90% 40%, rgba(204, 251, 241, 0.3), transparent),
+    radial-gradient(1.5px 1.5px at 15% 75%, rgba(20, 184, 166, 0.42), transparent),
+    radial-gradient(1.5px 1.5px at 85% 25%, rgba(245, 158, 11, 0.28), transparent),
+    radial-gradient(1px 1px at 25% 45%, rgba(255,255,255,0.22), transparent),
+    radial-gradient(1px 1px at 65% 55%, rgba(226,232,240,0.18), transparent),
+    radial-gradient(1px 1px at 45% 85%, rgba(204,251,241,0.26), transparent),
+    radial-gradient(1px 1px at 5% 95%, rgba(255,255,255,0.2), transparent),
+    radial-gradient(1px 1px at 95% 5%, rgba(255,255,255,0.28), transparent);
+  animation: twinkle 9s ease-in-out infinite alternate;
 }
 
 @keyframes twinkle {
@@ -68,7 +71,9 @@ body {
   100% { opacity: 0.6; }
 }
 
-.orbs-container {
+.particle-field,
+.particle-drift,
+.aura-grid {
   position: fixed;
   inset: 0;
   z-index: 0;
@@ -76,60 +81,48 @@ body {
   overflow: hidden;
 }
 
-.orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  will-change: transform;
+.particle-field {
+  opacity: 0.54;
+  background-image:
+    radial-gradient(circle, rgba(236, 253, 245, 0.48) 0 1px, transparent 1.6px),
+    radial-gradient(circle, rgba(45, 212, 191, 0.34) 0 1px, transparent 1.8px),
+    radial-gradient(circle, rgba(251, 191, 36, 0.18) 0 1px, transparent 1.7px);
+  background-position: 0 0, 44px 28px, 12px 72px;
+  background-size: 96px 96px, 142px 142px, 178px 178px;
+  mask-image: radial-gradient(ellipse at 50% 38%, black 0%, black 55%, transparent 92%);
+  animation: particlePulse 10s ease-in-out infinite alternate;
 }
 
-.orb-1 {
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, rgba(56,189,248,0.22), transparent 70%);
-  top: -10%;
-  left: -5%;
-  animation: orbFloat1 20s ease-in-out infinite;
+.particle-drift {
+  opacity: 0.3;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.5) 0 0.8px, transparent 1.4px),
+    radial-gradient(circle, rgba(94, 234, 212, 0.38) 0 1px, transparent 1.8px);
+  background-position: 22px 40px, 70px 12px;
+  background-size: 128px 128px, 220px 220px;
+  animation: particleDrift 34s linear infinite;
 }
 
-.orb-2 {
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(20,184,166,0.2), transparent 70%);
-  top: 50%;
-  right: -10%;
-  animation: orbFloat2 25s ease-in-out infinite;
+.aura-grid {
+  opacity: 0.28;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px),
+    linear-gradient(115deg, transparent 0%, transparent 38%, rgba(94,234,212,0.12) 48%, transparent 58%, transparent 100%);
+  background-size: 84px 84px, 84px 84px, 100% 100%;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 72%, transparent 100%);
 }
 
-.orb-3 {
-  width: 350px;
-  height: 350px;
-  background: radial-gradient(circle, rgba(245,158,11,0.16), transparent 70%);
-  bottom: -5%;
-  left: 30%;
-  animation: orbFloat3 22s ease-in-out infinite;
+@keyframes particlePulse {
+  0% { opacity: 0.34; filter: saturate(0.9); }
+  100% { opacity: 0.58; filter: saturate(1.2); }
 }
 
-@keyframes orbFloat1 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  25% { transform: translate(80px, 60px) scale(1.1); }
-  50% { transform: translate(40px, 120px) scale(0.95); }
-  75% { transform: translate(-40px, 60px) scale(1.05); }
+@keyframes particleDrift {
+  from { background-position: 22px 40px, 70px 12px; }
+  to { background-position: 150px -88px, -150px 232px; }
 }
 
-@keyframes orbFloat2 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  25% { transform: translate(-60px, -80px) scale(1.15); }
-  50% { transform: translate(-120px, -40px) scale(0.9); }
-  75% { transform: translate(-60px, 40px) scale(1.1); }
-}
-
-@keyframes orbFloat3 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  25% { transform: translate(60px, -40px) scale(1.05); }
-  50% { transform: translate(120px, -80px) scale(1.15); }
-  75% { transform: translate(40px, -40px) scale(0.95); }
-}
 
 .portfolio-card {
   position: relative;
