@@ -35,9 +35,9 @@ const translations = {
     disciplines: "个领域",
     featured: "精选",
     lenses: "观察维度",
-    eidosTitle: "EIDOS 全量来源库",
-    eidosSubtitle: "EIDOS 的公开条目已全量导入，并按 Refcases 的五个领域重新归类；进入主库前仍要人工拆解。",
-    eidosSource: "来源",
+    inspirationTitle: "灵感来源库",
+    inspirationSubtitle: "外部公开条目已全量导入，并按 Refcases 的五个领域重新归类；进入主库前仍要人工拆解。",
+    importedSource: "导入来源",
     developerTitle: "Developer Portfolios 全量来源库",
     developerSubtitle: "GitHub developer-portfolios 的网站已全量导入，统一映射到 Refcases 分类，并标出已被主库收录的重复项。",
     developerSource: "来源",
@@ -65,9 +65,9 @@ const translations = {
     disciplines: "disciplines",
     featured: "featured",
     lenses: "lenses",
-    eidosTitle: "EIDOS Full Source Library",
-    eidosSubtitle: "All public EIDOS entries are imported and reclassified into the five Refcases disciplines. They still need manual analysis before entering the main library.",
-    eidosSource: "Source",
+    inspirationTitle: "Inspiration Source Library",
+    inspirationSubtitle: "External public entries are imported and reclassified into the five Refcases disciplines. They still need manual analysis before entering the main library.",
+    importedSource: "Imported source",
     developerTitle: "Developer Portfolios Full Source Library",
     developerSubtitle: "All developer-portfolios websites are imported, mapped into the Refcases taxonomy, and checked against the main library.",
     developerSource: "Source",
@@ -387,8 +387,8 @@ export default function Home() {
             <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
               <div>
                 <p className="text-[11px] uppercase tracking-[0.28em] text-zinc-500">Reference intake</p>
-                <h2 className="mt-2 text-2xl font-semibold text-zinc-100">{t.eidosTitle}</h2>
-                <p className="mt-2 max-w-2xl text-sm leading-6 text-zinc-400">{t.eidosSubtitle}</p>
+                <h2 className="mt-2 text-2xl font-semibold text-zinc-100">{t.inspirationTitle}</h2>
+                <p className="mt-2 max-w-2xl text-sm leading-6 text-zinc-400">{t.inspirationSubtitle}</p>
               </div>
               <div className="text-sm text-zinc-500">
                 {filteredEidosCandidates.length} shown · {eidosReferences.length} total
@@ -407,7 +407,7 @@ export default function Home() {
                 <EidosCandidateCard
                   key={`${candidate.url}-${candidate.title}-${index}`}
                   candidate={candidate}
-                  sourceLabel={t.eidosSource}
+                  sourceLabel={t.importedSource}
                   duplicateLabel={t.duplicateOfMain}
                 />
               ))}
@@ -537,7 +537,7 @@ function EidosCandidateCard({
       </div>
 
       <div className="mt-5 border-t border-white/[0.06] pt-3 text-xs text-zinc-600">
-        {sourceLabel}: {candidate.source}
+        {sourceLabel}
       </div>
     </a>
   );
